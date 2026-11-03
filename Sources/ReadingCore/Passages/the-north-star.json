@@ -1,0 +1,178 @@
+{
+  "id": "the-north-star",
+  "title": "The North Star",
+  "kind": "nonfiction",
+  "level": 2,
+  "order": 5,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Polaris is the star many people call the North Star."
+    },
+    {
+      "id": "s2",
+      "text": "It is famous, but it is not the brightest star in the night sky."
+    },
+    {
+      "id": "s3",
+      "text": "Earth spins around an imaginary line called its axis."
+    },
+    {
+      "id": "s4",
+      "text": "That axis points almost straight at Polaris, so Polaris seems to stay still."
+    },
+    {
+      "id": "s5",
+      "text": "Other stars look as if they slowly circle around it during the night."
+    },
+    {
+      "id": "s6",
+      "text": "If you can find Polaris, you are looking about north."
+    },
+    {
+      "id": "s7",
+      "text": "Travelers have used that sky clue for a very long time."
+    },
+    {
+      "id": "s8",
+      "text": "The star is not useful in the same way from the southern half of Earth, because it sits in the northern sky."
+    },
+    {
+      "id": "s9",
+      "text": "A compass can also show north, but Polaris is a star, not a magnet."
+    },
+    {
+      "id": "s10",
+      "text": "To find it, some people start with the Big Dipper."
+    },
+    {
+      "id": "s11",
+      "text": "They follow the two stars on the outer edge of the Dipper's cup."
+    },
+    {
+      "id": "s12",
+      "text": "Those pointer stars lead the eye toward Polaris."
+    },
+    {
+      "id": "s13",
+      "text": "Knowing one steady star can keep a traveler from walking in circles."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why Polaris helps people find north"
+        },
+        {
+          "id": "b",
+          "text": "How to build a brighter star"
+        },
+        {
+          "id": "c",
+          "text": "Why the Big Dipper is a planet"
+        },
+        {
+          "id": "d",
+          "text": "How magnets are melted into stars"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage explains that Polaris seems still because of Earth's axis, and that finding it means you are looking about north. That use is the main idea.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s6"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Is Polaris the brightest star in the night sky?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes. It is the brightest star of all."
+        },
+        {
+          "id": "b",
+          "text": "No. It is famous, but not the brightest."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only in the daytime."
+        },
+        {
+          "id": "d",
+          "text": "No, because it is really a planet."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says Polaris is famous, but it is not the brightest star in the night sky. That detail surprises many readers on purpose.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, Earth's axis is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The brightest star in the Dipper"
+        },
+        {
+          "id": "b",
+          "text": "A magnet inside a compass"
+        },
+        {
+          "id": "c",
+          "text": "The imaginary line Earth spins around"
+        },
+        {
+          "id": "d",
+          "text": "The path of a river at night"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage defines axis as the imaginary line Earth spins around. That line points almost at Polaris.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "A traveler watches one very bright star for an hour and sees it change position. What can the traveler figure out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The star must be Polaris, because bright stars never move"
+        },
+        {
+          "id": "b",
+          "text": "The traveler is looking at a compass needle"
+        },
+        {
+          "id": "c",
+          "text": "Earth has stopped spinning for the night"
+        },
+        {
+          "id": "d",
+          "text": "That star is probably not Polaris, because Polaris seems to stay still"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage says Polaris seems to stay still while other stars seem to circle. A bright star that changes position does not match the clue for Polaris.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s4",
+        "s5"
+      ],
+      "id": "q4"
+    }
+  ]
+}

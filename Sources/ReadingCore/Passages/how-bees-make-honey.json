@@ -1,0 +1,137 @@
+{
+  "id": "how-bees-make-honey",
+  "title": "How Bees Make Honey",
+  "kind": "nonfiction",
+  "level": 1,
+  "order": 8,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Honeybees live together in a hive, and most of them are workers."
+    },
+    {
+      "id": "s2",
+      "text": "A worker bee flies from flower to flower and drinks a sweet liquid called nectar."
+    },
+    {
+      "id": "s3",
+      "text": "She carries the nectar back inside her body."
+    },
+    {
+      "id": "s4",
+      "text": "At the hive, she passes it to other bees."
+    },
+    {
+      "id": "s5",
+      "text": "They store it in small wax rooms called cells."
+    },
+    {
+      "id": "s6",
+      "text": "Then the bees fan the nectar with their wings."
+    },
+    {
+      "id": "s7",
+      "text": "The fanning helps water dry out of the nectar."
+    },
+    {
+      "id": "s8",
+      "text": "What is left is thick and sweet. That food is honey."
+    },
+    {
+      "id": "s9",
+      "text": "Bees eat the honey when flowers are hard to find."
+    },
+    {
+      "id": "s10",
+      "text": "A queen bee lays the eggs, but the workers are the ones who make the honey."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why queen bees build wax crowns"
+        },
+        {
+          "id": "b",
+          "text": "How worker bees turn nectar into honey"
+        },
+        {
+          "id": "c",
+          "text": "How flowers choose their colors"
+        },
+        {
+          "id": "d",
+          "text": "Why honeybees sleep all winter"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage follows nectar from flowers into the hive, through fanning, until it becomes honey. That process is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s7",
+        "s8"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, nectar means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wax walls of the hive"
+        },
+        {
+          "id": "b",
+          "text": "A kind of egg laid by workers"
+        },
+        {
+          "id": "c",
+          "text": "A sweet liquid from flowers"
+        },
+        {
+          "id": "d",
+          "text": "The sound of bees fanning"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says a worker drinks a sweet liquid called nectar from flowers. That sentence tells the meaning in context.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bees fan the nectar with their wings"
+        },
+        {
+          "id": "b",
+          "text": "The nectar is stored in wax cells"
+        },
+        {
+          "id": "c",
+          "text": "Bees eat honey when flowers are scarce"
+        },
+        {
+          "id": "d",
+          "text": "A worker bee drinks nectar from flowers"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The worker collects nectar before it is passed on, stored, or fanned. Eating the honey comes last, when flowers are hard to find.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q3"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "how-a-compass-works",
+  "title": "How a Compass Finds North",
+  "kind": "nonfiction",
+  "level": 3,
+  "order": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A compass holds a small magnet balanced so it can swing."
+    },
+    {
+      "id": "s2",
+      "text": "That magnet is often shaped as a needle, and one end is the north-seeking end."
+    },
+    {
+      "id": "s3",
+      "text": "Earth acts like a giant, slightly uneven magnet, with a magnetic field around it."
+    },
+    {
+      "id": "s4",
+      "text": "The needle lines up with that field."
+    },
+    {
+      "id": "s5",
+      "text": "The north-seeking end points toward magnetic north, not toward the biggest piece of metal nearby."
+    },
+    {
+      "id": "s6",
+      "text": "Magnetic north is close to the geographic North Pole, but it is not the exact same spot."
+    },
+    {
+      "id": "s7",
+      "text": "The difference between those two norths is called declination, and it changes from place to place."
+    },
+    {
+      "id": "s8",
+      "text": "A hiker who needs a precise path has to account for that difference."
+    },
+    {
+      "id": "s9",
+      "text": "A compass can be pulled off course by nearby iron, or by a magnet in a phone case, because those tug on the needle too."
+    },
+    {
+      "id": "s10",
+      "text": "A careful user steps away from cars, metal fences, and electronics before trusting the reading."
+    },
+    {
+      "id": "s11",
+      "text": "Polaris, the North Star, is a different clue. It is a star, not a magnet, and it helps only when the northern sky is visible."
+    },
+    {
+      "id": "s12",
+      "text": "A compass can work in fog, under clouds, and during the day, which is why travelers still carry one."
+    },
+    {
+      "id": "s13",
+      "text": "Using it well means holding it level, letting the needle settle, and then matching your map or your body to the reading."
+    },
+    {
+      "id": "s14",
+      "text": "The needle does not decide the destination. It only shows a direction so a person can choose."
+    },
+    {
+      "id": "s15",
+      "text": "If the needle jitters and will not settle, something nearby is probably tugging it, and the reading is not ready."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How a compass needle shows direction, and what can fool it"
+        },
+        {
+          "id": "b",
+          "text": "How to turn a phone into the North Star"
+        },
+        {
+          "id": "c",
+          "text": "Why magnetic north is a kind of star"
+        },
+        {
+          "id": "d",
+          "text": "How hikers move the geographic North Pole"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage explains the magnetic needle, the difference between two norths, and the nearby metal that can spoil a reading. That is the main idea.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s6",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What is declination?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The shine of the North Star"
+        },
+        {
+          "id": "b",
+          "text": "The difference between magnetic north and the geographic North Pole"
+        },
+        {
+          "id": "c",
+          "text": "The weight of a compass needle"
+        },
+        {
+          "id": "d",
+          "text": "The fog that hides a trail"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage defines declination as the difference between magnetic north and the geographic North Pole, and says it changes from place to place.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The needle needs to settle. What does settle mean here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To point at the brightest star"
+        },
+        {
+          "id": "b",
+          "text": "To melt into the map"
+        },
+        {
+          "id": "c",
+          "text": "To stop swinging and hold still"
+        },
+        {
+          "id": "d",
+          "text": "To grow louder in the fog"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Settle, in this passage, means to stop moving and hold still. A jittery needle has not settled, so the reading is not ready.",
+      "lookBackSentenceIds": [
+        "s13",
+        "s15"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "The needle keeps swinging beside a metal fence. What should the hiker figure out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fence has become the North Star"
+        },
+        {
+          "id": "b",
+          "text": "Declination disappears near any fence"
+        },
+        {
+          "id": "c",
+          "text": "A swinging needle is the most accurate reading"
+        },
+        {
+          "id": "d",
+          "text": "The fence may be tugging the needle, so this is a poor place to read it"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage says iron can tug the needle and that a needle which will not settle is being pulled by something nearby. The fence is a strong clue.",
+      "lookBackSentenceIds": [
+        "s9",
+        "s15"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "Which order fits a careful compass reading?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Step away from iron, hold the compass level, let the needle settle, then choose a direction"
+        },
+        {
+          "id": "b",
+          "text": "Choose a direction, then stand beside a car, then shake the needle"
+        },
+        {
+          "id": "c",
+          "text": "Look only at Polaris, then ignore the needle in clear weather"
+        },
+        {
+          "id": "d",
+          "text": "Let the needle jitter, then trust it at once"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage tells a careful user to leave cars and fences first, hold the compass level, wait for the needle to settle, and only then use the direction.",
+      "lookBackSentenceIds": [
+        "s10",
+        "s13"
+      ],
+      "id": "q5"
+    }
+  ]
+}

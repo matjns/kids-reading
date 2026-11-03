@@ -1,0 +1,211 @@
+{
+  "id": "the-printing-press",
+  "title": "The Printing Press",
+  "kind": "nonfiction",
+  "level": 3,
+  "order": 5,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "For centuries in Europe, most books were copied by hand, letter by letter."
+    },
+    {
+      "id": "s2",
+      "text": "A single book could take months, so books were rare and often expensive."
+    },
+    {
+      "id": "s3",
+      "text": "Around the year 1440, Johannes Gutenberg, a craftsman in Germany, built a press that changed the pace."
+    },
+    {
+      "id": "s4",
+      "text": "He did not invent the whole idea of printing. People in East Asia had already printed with carved blocks."
+    },
+    {
+      "id": "s5",
+      "text": "Gutenberg's important idea was movable metal type: separate metal letters that could be arranged into words."
+    },
+    {
+      "id": "s6",
+      "text": "A worker could set a page, ink it, press paper against it, and later set a different page with the same letters."
+    },
+    {
+      "id": "s7",
+      "text": "The ink was thick and oily so it would cling to the metal and print a clean mark."
+    },
+    {
+      "id": "s8",
+      "text": "Because the letters could be used again, a workshop could produce many copies of the same book."
+    },
+    {
+      "id": "s9",
+      "text": "Copies still had to be checked. A mistake in the type would show up on every printed page."
+    },
+    {
+      "id": "s10",
+      "text": "Even so, books became faster to make and, over time, easier for more people to own."
+    },
+    {
+      "id": "s11",
+      "text": "More books helped more people practice reading, and ideas could travel farther than one handwritten copy."
+    },
+    {
+      "id": "s12",
+      "text": "The press did not make everyone agree. It made it easier for many different voices to be written down."
+    },
+    {
+      "id": "s13",
+      "text": "Newspapers, schoolbooks, and short pamphlets later grew from this faster way of putting words on paper."
+    },
+    {
+      "id": "s14",
+      "text": "Printing can be digital now, but a great change began when letters became pieces a person could move."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How movable type made books faster to produce"
+        },
+        {
+          "id": "b",
+          "text": "How carved blocks were first used on the moon"
+        },
+        {
+          "id": "c",
+          "text": "Why ink should be as thin as water"
+        },
+        {
+          "id": "d",
+          "text": "How handwriting became slower after 1440"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage contrasts slow hand copying with Gutenberg's reusable metal letters and the books that followed. Faster production is the main idea.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s8",
+        "s10"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "About what year did Gutenberg build his press?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Around 1040"
+        },
+        {
+          "id": "b",
+          "text": "Around 1440"
+        },
+        {
+          "id": "c",
+          "text": "Around 1840"
+        },
+        {
+          "id": "d",
+          "text": "Around 1940"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage places the press around the year 1440 in Germany. The other dates are not the one given.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "Movable type in this passage means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A book copied slowly by one hand"
+        },
+        {
+          "id": "b",
+          "text": "Ink that never dries on paper"
+        },
+        {
+          "id": "c",
+          "text": "Separate letters that can be arranged and reused"
+        },
+        {
+          "id": "d",
+          "text": "A carved block that cannot be changed"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage defines movable metal type as separate metal letters that can be arranged into words and used again for another page.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s6"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why would one mistake in the metal type matter so much?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mistake would appear on only one handwritten page"
+        },
+        {
+          "id": "b",
+          "text": "Readers would be unable to see any ink"
+        },
+        {
+          "id": "c",
+          "text": "The press would turn the mistake into a picture"
+        },
+        {
+          "id": "d",
+          "text": "Every copy of that page would show the same mistake"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage says a mistake in the type would show up on every printed page. A reader can figure out that reusable type spreads a single error to the whole batch.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "Which of these came first in the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Books in Europe were copied by hand"
+        },
+        {
+          "id": "b",
+          "text": "Gutenberg built his press"
+        },
+        {
+          "id": "c",
+          "text": "Newspapers grew from the faster process"
+        },
+        {
+          "id": "d",
+          "text": "The same metal letters were reused for many copies"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage begins with centuries of hand copying. Gutenberg's press, reused letters, and later newspapers all come after that beginning.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q5"
+    }
+  ]
+}

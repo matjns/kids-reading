@@ -1,0 +1,172 @@
+{
+  "id": "the-goose-and-the-golden-egg",
+  "title": "The Goose and the Golden Egg",
+  "kind": "fable",
+  "level": 2,
+  "order": 2,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A farmer kept a goose that laid one golden egg each morning."
+    },
+    {
+      "id": "s2",
+      "text": "The egg shone in the straw, and the farmer sold it at the market for a good price."
+    },
+    {
+      "id": "s3",
+      "text": "At first the farmer was delighted. One egg a day was a steady treasure."
+    },
+    {
+      "id": "s4",
+      "text": "Then the farmer began to want that treasure all at once."
+    },
+    {
+      "id": "s5",
+      "text": "If the goose can make gold, the farmer said, there must be a heap of it somewhere."
+    },
+    {
+      "id": "s6",
+      "text": "The farmer searched the nest, the shed, and the yard, and found no hidden pile."
+    },
+    {
+      "id": "s7",
+      "text": "Impatient, the farmer tried to hurry the goose and take more than the one egg."
+    },
+    {
+      "id": "s8",
+      "text": "The goose flapped, slipped free, and flew to a far field."
+    },
+    {
+      "id": "s9",
+      "text": "The next morning the nest was empty. The morning after that, it was empty too."
+    },
+    {
+      "id": "s10",
+      "text": "The farmer still had the money from eggs already sold, but the daily gift was gone."
+    },
+    {
+      "id": "s11",
+      "text": "Wanting everything at once had cost the farmer the good thing that was already there."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wanting everything at once and losing a daily gift"
+        },
+        {
+          "id": "b",
+          "text": "A market that stops selling ordinary eggs"
+        },
+        {
+          "id": "c",
+          "text": "A goose who learns to build a shed"
+        },
+        {
+          "id": "d",
+          "text": "A farmer who finds a heap of gold in the yard"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The goose already gives one golden egg a day. The farmer tries to take more, the goose leaves, and the nest stays empty. Greed is the main idea.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s9",
+        "s11"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The farmer grows impatient. What does impatient mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Happy with one egg a day"
+        },
+        {
+          "id": "b",
+          "text": "Not willing to wait"
+        },
+        {
+          "id": "c",
+          "text": "Careful with a hidden map"
+        },
+        {
+          "id": "d",
+          "text": "Ready to share with neighbors"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Impatient means not willing to wait. The farmer wants the treasure all at once instead of accepting one egg each morning.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "How many golden eggs does the goose lay each morning at the start?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Twelve"
+        },
+        {
+          "id": "b",
+          "text": "None"
+        },
+        {
+          "id": "c",
+          "text": "One"
+        },
+        {
+          "id": "d",
+          "text": "Forty"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The opening line says the goose laid one golden egg each morning. The trouble starts when the farmer wants more than that.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does the goose leave?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The market closed and eggs had no price"
+        },
+        {
+          "id": "b",
+          "text": "The nest was moved to the far field on purpose"
+        },
+        {
+          "id": "c",
+          "text": "The goose forgot how to lay an egg"
+        },
+        {
+          "id": "d",
+          "text": "The farmer would not wait and tried to take more than the daily egg"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The story does not say the goose is lost. It leaves right after the farmer tries to hurry it and take more. That pressure is the clue.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s8"
+      ],
+      "id": "q4"
+    }
+  ],
+  "attribution": "Inspired by a public-domain fable by Aesop. The wording is original, and the ending is gentler than the older version."
+}

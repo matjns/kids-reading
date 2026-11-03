@@ -1,0 +1,176 @@
+{
+  "id": "why-leaves-change",
+  "title": "Why Leaves Change Color",
+  "kind": "nonfiction",
+  "level": 2,
+  "order": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "In summer, a green substance called chlorophyll fills a healthy leaf."
+    },
+    {
+      "id": "s2",
+      "text": "Chlorophyll catches sunlight so the tree can make food."
+    },
+    {
+      "id": "s3",
+      "text": "Yellow and orange colors are in the leaf too, but the green hides them."
+    },
+    {
+      "id": "s4",
+      "text": "In fall, days grow shorter and nights grow cooler."
+    },
+    {
+      "id": "s5",
+      "text": "Those changes tell many trees to seal off their leaves and save water."
+    },
+    {
+      "id": "s6",
+      "text": "The chlorophyll breaks down, and the hidden yellow and orange can be seen."
+    },
+    {
+      "id": "s7",
+      "text": "Some trees also make a red color in the fall, which is why certain leaves turn crimson."
+    },
+    {
+      "id": "s8",
+      "text": "That red is not simply uncovered. The tree produces it."
+    },
+    {
+      "id": "s9",
+      "text": "Brown often comes from chemicals left in the leaf as it dries."
+    },
+    {
+      "id": "s10",
+      "text": "Then the leaf's connection to the twig weakens, and the leaf falls."
+    },
+    {
+      "id": "s11",
+      "text": "The tree is not finished. It is resting and protecting itself until spring."
+    },
+    {
+      "id": "s12",
+      "text": "On the ground, the leaves slowly break apart and return nutrients to the soil."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why leaves change color and then fall"
+        },
+        {
+          "id": "b",
+          "text": "How to paint a leaf with chlorophyll"
+        },
+        {
+          "id": "c",
+          "text": "Why soil is always bright green"
+        },
+        {
+          "id": "d",
+          "text": "How spring arrives in a single hour"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage explains green chlorophyll, the colors that appear when it breaks down, and why the leaf finally falls. That full change is the main idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s6",
+        "s10"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, chlorophyll is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The brown dust under a tree"
+        },
+        {
+          "id": "b",
+          "text": "The green substance that catches sunlight"
+        },
+        {
+          "id": "c",
+          "text": "The red paint on a fence"
+        },
+        {
+          "id": "d",
+          "text": "The cool wind of a short day"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says chlorophyll is the green substance in a healthy leaf and that it catches sunlight so the tree can make food.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s2"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Which color is hidden during summer and shows after the green breaks down?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only blue"
+        },
+        {
+          "id": "b",
+          "text": "Only black"
+        },
+        {
+          "id": "c",
+          "text": "Yellow and orange"
+        },
+        {
+          "id": "d",
+          "text": "Only silver"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says yellow and orange are already in the leaf, hidden by green. They can be seen after chlorophyll breaks down.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s6"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens first in the fall change described here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The leaf falls onto the soil"
+        },
+        {
+          "id": "b",
+          "text": "Nutrients return to the ground"
+        },
+        {
+          "id": "c",
+          "text": "Yellow and orange become easy to see"
+        },
+        {
+          "id": "d",
+          "text": "Days grow shorter and the tree seals off the leaves"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Shorter days come before the green breaks down. Seeing the hidden colors, the fall of the leaf, and the return of nutrients all come later.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s5"
+      ],
+      "id": "q4"
+    }
+  ]
+}

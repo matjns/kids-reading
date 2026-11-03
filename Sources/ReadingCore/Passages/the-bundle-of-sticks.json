@@ -1,0 +1,215 @@
+{
+  "id": "the-bundle-of-sticks",
+  "title": "The Bundle of Sticks",
+  "kind": "fable",
+  "level": 3,
+  "order": 1,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Three cooks in a busy kitchen argued from morning until noon."
+    },
+    {
+      "id": "s2",
+      "text": "One wanted more salt. One wanted more time. One wanted the others to stay out of the way."
+    },
+    {
+      "id": "s3",
+      "text": "Orders piled up, and a pot boiled over because nobody was watching it together."
+    },
+    {
+      "id": "s4",
+      "text": "Their teacher did not shout. The teacher handed each cook a single dry stick."
+    },
+    {
+      "id": "s5",
+      "text": "Break it, the teacher said. Each stick snapped with an easy crack."
+    },
+    {
+      "id": "s6",
+      "text": "Then the teacher tied three sticks into a tight bundle and passed the bundle around."
+    },
+    {
+      "id": "s7",
+      "text": "Each cook tried. Faces reddened. The bundle would not break."
+    },
+    {
+      "id": "s8",
+      "text": "The sticks did not become a new kind of wood, the teacher said. They became harder to snap because they were working as one."
+    },
+    {
+      "id": "s9",
+      "text": "The cooks looked at the spilled pot and at the waiting order tickets."
+    },
+    {
+      "id": "s10",
+      "text": "They split the jobs: one watched the boil, one seasoned at the end, and one plated the food."
+    },
+    {
+      "id": "s11",
+      "text": "The next hour was not perfectly calm, but the food left the kitchen hot and on time."
+    },
+    {
+      "id": "s12",
+      "text": "A single stick had been a quick snap. The bundle had been a lesson they could feel in their hands."
+    },
+    {
+      "id": "s13",
+      "text": "After the meal service, they hung the bundle on a hook where everyone could see it."
+    },
+    {
+      "id": "s14",
+      "text": "The argument was not magically gone. They still had different ideas about salt and timing."
+    },
+    {
+      "id": "s15",
+      "text": "They had learned that different ideas do not help until someone holds them together."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Working together makes the group harder to break apart"
+        },
+        {
+          "id": "b",
+          "text": "A pot that should never be watched"
+        },
+        {
+          "id": "c",
+          "text": "A teacher who wants the kitchen to close"
+        },
+        {
+          "id": "d",
+          "text": "Three cooks who all want the same job"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "One stick snaps, but the bundle does not. The cooks then split the jobs and get the food out on time. Staying together is the main idea.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s8",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What happens to each single stick?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It bends and then sprouts leaves"
+        },
+        {
+          "id": "b",
+          "text": "It snaps with an easy crack"
+        },
+        {
+          "id": "c",
+          "text": "It is too strong for anyone to break"
+        },
+        {
+          "id": "d",
+          "text": "It is thrown into the boiling pot"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The teacher asks each cook to break one stick, and each stick snaps easily. The bundle is the thing that will not break.",
+      "lookBackSentenceIds": [
+        "s5"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this story, a bundle is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A single stick before it snaps"
+        },
+        {
+          "id": "b",
+          "text": "The list of order tickets"
+        },
+        {
+          "id": "c",
+          "text": "Things tied together into one group"
+        },
+        {
+          "id": "d",
+          "text": "A pot that has boiled over"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The teacher ties three sticks into a tight bundle. From that action, a bundle means things fastened together as one.",
+      "lookBackSentenceIds": [
+        "s6"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why do the cooks hang the bundle on a hook?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Because the sticks are now too heavy to hold"
+        },
+        {
+          "id": "b",
+          "text": "So customers can buy the sticks"
+        },
+        {
+          "id": "c",
+          "text": "Because the teacher told them to hide it"
+        },
+        {
+          "id": "d",
+          "text": "So the lesson stays visible while they work"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The story does not say the hook is for storage alone. They hang the bundle where everyone can see it, after learning the lesson with their hands. A reader can figure out that it is a reminder.",
+      "lookBackSentenceIds": [
+        "s12",
+        "s13"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What does the teacher do first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hands each cook a single stick"
+        },
+        {
+          "id": "b",
+          "text": "Ties three sticks into a bundle"
+        },
+        {
+          "id": "c",
+          "text": "Watches them split the cooking jobs"
+        },
+        {
+          "id": "d",
+          "text": "Sees the bundle hung on a hook"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The single sticks come before the bundle. Splitting the jobs and hanging the bundle happen after the cooks feel the difference.",
+      "lookBackSentenceIds": [
+        "s4"
+      ],
+      "id": "q5"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

@@ -1,0 +1,179 @@
+{
+  "id": "town-mouse-and-country-mouse",
+  "title": "The Town Mouse and the Country Mouse",
+  "kind": "fable",
+  "level": 2,
+  "order": 3,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A country mouse lived in a hedge and ate roots, barley, and the occasional crumb."
+    },
+    {
+      "id": "s2",
+      "text": "Life was plain, but the pantry hole was quiet and the nights were safe."
+    },
+    {
+      "id": "s3",
+      "text": "One week a cousin came to visit from town, wearing a look of pity."
+    },
+    {
+      "id": "s4",
+      "text": "Come to the city, said the town mouse. I dine on cheese, cake, and fine crusts."
+    },
+    {
+      "id": "s5",
+      "text": "The country mouse agreed, and they traveled until the roads grew loud."
+    },
+    {
+      "id": "s6",
+      "text": "In a grand dining room, the table still held a feast from supper."
+    },
+    {
+      "id": "s7",
+      "text": "The two mice scrambled up a cloth and began to nibble."
+    },
+    {
+      "id": "s8",
+      "text": "Then a door banged. People laughed. A dog barked just outside."
+    },
+    {
+      "id": "s9",
+      "text": "The mice dove under a cupboard and waited, hearts racing, until the room settled."
+    },
+    {
+      "id": "s10",
+      "text": "As soon as they crept out, a cat's shadow crossed the floor, and they ran again."
+    },
+    {
+      "id": "s11",
+      "text": "Before dawn, the country mouse tied up a small bundle."
+    },
+    {
+      "id": "s12",
+      "text": "Your crumbs are richer, the country mouse said, but I would rather eat roots and sleep without fear."
+    },
+    {
+      "id": "s13",
+      "text": "The country mouse went home to the hedge as the sun came up."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Choosing a simple, safe home over a rich, dangerous one"
+        },
+        {
+          "id": "b",
+          "text": "A dog and a cat who become cooks"
+        },
+        {
+          "id": "c",
+          "text": "A hedge that is moved into a dining room"
+        },
+        {
+          "id": "d",
+          "text": "Two mice who open a bakery in town"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The town food is richer, but danger keeps interrupting the meal. The country mouse goes home to quiet roots. Safety over luxury is the main idea.",
+      "lookBackSentenceIds": [
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The town mouse wears a look of pity. What does pity mean here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Feeling hungry for cake"
+        },
+        {
+          "id": "b",
+          "text": "Feeling sorry for someone"
+        },
+        {
+          "id": "c",
+          "text": "Feeling proud of a loud road"
+        },
+        {
+          "id": "d",
+          "text": "Feeling ready for a long nap"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Pity means feeling sorry for someone. The town mouse looks at the plain hedge life as if it were something to be sorry about.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What does the country mouse eat at home?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cheese, cake, and fine crusts"
+        },
+        {
+          "id": "b",
+          "text": "Only food dropped by a cat"
+        },
+        {
+          "id": "c",
+          "text": "Roots, barley, and an occasional crumb"
+        },
+        {
+          "id": "d",
+          "text": "Soup from the grand table"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The first sentence lists the country food: roots, barley, and the occasional crumb. Cheese and cake belong to the town visit.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "What does the cat's shadow suggest about staying for another meal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The feast will be even safer at dawn"
+        },
+        {
+          "id": "b",
+          "text": "The country hedge is full of cats"
+        },
+        {
+          "id": "c",
+          "text": "The dog has gone to the market"
+        },
+        {
+          "id": "d",
+          "text": "More danger could appear at any moment"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The mice have already hidden from a dog. A cat's shadow is a new clue that the rich room keeps producing danger. Staying would not suddenly become calm.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s10"
+      ],
+      "id": "q4"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

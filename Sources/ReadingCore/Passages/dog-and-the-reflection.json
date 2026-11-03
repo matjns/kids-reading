@@ -1,0 +1,136 @@
+{
+  "id": "dog-and-the-reflection",
+  "title": "The Dog and the Reflection",
+  "kind": "fable",
+  "level": 1,
+  "order": 6,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A dog trotted over a wooden bridge with a bone in his mouth."
+    },
+    {
+      "id": "s2",
+      "text": "Halfway across, he looked down at the bright river."
+    },
+    {
+      "id": "s3",
+      "text": "Another dog seemed to look back, and that dog had a bone too."
+    },
+    {
+      "id": "s4",
+      "text": "It was only his own reflection, but he did not understand."
+    },
+    {
+      "id": "s5",
+      "text": "He wanted both bones, so he snapped at the one in the water."
+    },
+    {
+      "id": "s6",
+      "text": "His own bone slipped from his teeth and sank."
+    },
+    {
+      "id": "s7",
+      "text": "The river closed over it with a soft splash."
+    },
+    {
+      "id": "s8",
+      "text": "When the ripples cleared, the other dog was gone as well."
+    },
+    {
+      "id": "s9",
+      "text": "The dog walked on with nothing, wishing he had kept the bone he already had."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bridge that falls into a deep river"
+        },
+        {
+          "id": "b",
+          "text": "Two dogs who agree to share one bone"
+        },
+        {
+          "id": "c",
+          "text": "A cook who makes soup from a bone"
+        },
+        {
+          "id": "d",
+          "text": "A dog who loses his bone by grabbing for a second one"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The dog already has a bone. He snaps at the reflection, drops the real bone, and walks away with nothing. Greed for more is the big idea.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s6",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this story, a reflection is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A picture made on the water"
+        },
+        {
+          "id": "b",
+          "text": "A second real dog on the bank"
+        },
+        {
+          "id": "c",
+          "text": "A bone hidden under the bridge"
+        },
+        {
+          "id": "d",
+          "text": "A loud splash after a jump"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "A reflection is a picture made by light, here on the river. The story says the other dog was only the first dog's own reflection.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does the dog snap at the water?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The real bone is too hot to hold"
+        },
+        {
+          "id": "b",
+          "text": "He thinks he can get a second bone"
+        },
+        {
+          "id": "c",
+          "text": "Someone tells him to drop it"
+        },
+        {
+          "id": "d",
+          "text": "He is trying to wash his paws"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The story says he wanted both bones. He does not know the second dog is a reflection. We can figure out that the snap is an attempt to grab more.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s5"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

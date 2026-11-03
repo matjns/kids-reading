@@ -1,0 +1,140 @@
+{
+  "id": "the-lost-mitten",
+  "title": "The Lost Mitten",
+  "kind": "fiction",
+  "level": 1,
+  "order": 13,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "After the snow, a red mitten sat alone on a park bench."
+    },
+    {
+      "id": "s2",
+      "text": "It was small, woolly, and a little wet around the thumb."
+    },
+    {
+      "id": "s3",
+      "text": "A dog walker went by. A jogger went by. Nobody stopped."
+    },
+    {
+      "id": "s4",
+      "text": "At noon the park keeper noticed the bright red shape."
+    },
+    {
+      "id": "s5",
+      "text": "She shook off the snow and carried the mitten to the gate."
+    },
+    {
+      "id": "s6",
+      "text": "She placed it in the lost-and-found box and wrote a clear sign."
+    },
+    {
+      "id": "s7",
+      "text": "The sign said, Red mitten. Ask here."
+    },
+    {
+      "id": "s8",
+      "text": "Later, a neighbor spotted the sign and remembered the bench."
+    },
+    {
+      "id": "s9",
+      "text": "The neighbor took the mitten home in a dry bag."
+    },
+    {
+      "id": "s10",
+      "text": "A clear sign had helped a lost thing get back toward its street."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How a clear sign helps a lost mitten get picked up"
+        },
+        {
+          "id": "b",
+          "text": "How to knit a new pair of mittens"
+        },
+        {
+          "id": "c",
+          "text": "Why joggers race in deep snow"
+        },
+        {
+          "id": "d",
+          "text": "A bench that is moved to a new park"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "People pass the mitten until the keeper makes a sign. Then a neighbor finds it. The sign is what changes the story.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Where does the park keeper put the mitten?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inside a nest in a tree"
+        },
+        {
+          "id": "b",
+          "text": "In the lost-and-found box by the gate"
+        },
+        {
+          "id": "c",
+          "text": "On the highest hill in town"
+        },
+        {
+          "id": "d",
+          "text": "Under the snow on the bench"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The keeper carries the mitten to the gate and places it in the lost-and-found box. She does not leave it on the bench.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s6"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why is the mitten easier to return after noon?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The snow melts the mitten into a puddle"
+        },
+        {
+          "id": "b",
+          "text": "The jogger hides it in a pocket"
+        },
+        {
+          "id": "c",
+          "text": "A sign tells people what was found and where to ask"
+        },
+        {
+          "id": "d",
+          "text": "The bench walks down to the gate"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Before noon, people walk past. After the keeper writes the sign, a neighbor knows what to do. The sign is the clue that makes the return possible.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s6",
+        "s8"
+      ],
+      "id": "q3"
+    }
+  ]
+}

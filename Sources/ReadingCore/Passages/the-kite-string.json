@@ -1,0 +1,174 @@
+{
+  "id": "the-kite-string",
+  "title": "The Kite String",
+  "kind": "fiction",
+  "level": 2,
+  "order": 12,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "In a wide field, a breeze lifted a red kite above the grass."
+    },
+    {
+      "id": "s2",
+      "text": "The flyer let out string, and the kite climbed in small tugs."
+    },
+    {
+      "id": "s3",
+      "text": "Then the wind shifted. The kite dove toward a fence, and the string went slack."
+    },
+    {
+      "id": "s4",
+      "text": "A slack string is a loose string, and a loose string cannot steer."
+    },
+    {
+      "id": "s5",
+      "text": "The flyer did not yank. A hard yank can snap the string or crash the kite."
+    },
+    {
+      "id": "s6",
+      "text": "Instead, the flyer took a few steps forward until the string grew tight again."
+    },
+    {
+      "id": "s7",
+      "text": "A gentle pull lifted the nose of the kite."
+    },
+    {
+      "id": "s8",
+      "text": "The kite shuddered, caught the breeze, and rose over the fence."
+    },
+    {
+      "id": "s9",
+      "text": "After that, the flyer kept one hand ready to give string and one hand ready to take it in."
+    },
+    {
+      "id": "s10",
+      "text": "Giving string lets a kite go higher. Taking string in can steady it."
+    },
+    {
+      "id": "s11",
+      "text": "By the end of the hour, the flyer could feel the difference between a useful pull and a panicked one."
+    },
+    {
+      "id": "s12",
+      "text": "The kite landed on purpose, not in the fence, and the red cloth was still in one piece."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Steering a kite with careful pulls instead of a hard yank"
+        },
+        {
+          "id": "b",
+          "text": "Building a fence out of red cloth"
+        },
+        {
+          "id": "c",
+          "text": "Waiting for a day with no wind at all"
+        },
+        {
+          "id": "d",
+          "text": "Cutting the string so the kite can leave"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The kite dives, the flyer tightens the string gently, and the kite recovers. Careful control is the main idea.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s6",
+        "s12"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The string went slack. What does slack mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tied in a heavy knot"
+        },
+        {
+          "id": "b",
+          "text": "Loose, not tight"
+        },
+        {
+          "id": "c",
+          "text": "Bright red like the kite"
+        },
+        {
+          "id": "d",
+          "text": "Strong enough to lift a fence"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The story explains its own word: a slack string is a loose string, and a loose string cannot steer.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What does the flyer do instead of yanking?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Drops the string and runs home"
+        },
+        {
+          "id": "b",
+          "text": "Cuts the kite loose over the fence"
+        },
+        {
+          "id": "c",
+          "text": "Steps forward until the string is tight again"
+        },
+        {
+          "id": "d",
+          "text": "Ties the string to a fence post"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Instead of a hard yank, the flyer takes a few steps forward until the string tightens. Then a gentle pull lifts the kite.",
+      "lookBackSentenceIds": [
+        "s6"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The breeze first lifts the kite"
+        },
+        {
+          "id": "b",
+          "text": "The string goes slack near the fence"
+        },
+        {
+          "id": "c",
+          "text": "A gentle pull raises the kite's nose"
+        },
+        {
+          "id": "d",
+          "text": "The kite lands on purpose, still in one piece"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The launch, the dive, and the recovery all come before the ending. The last event is a planned landing with the cloth still whole.",
+      "lookBackSentenceIds": [
+        "s12"
+      ],
+      "id": "q4"
+    }
+  ]
+}

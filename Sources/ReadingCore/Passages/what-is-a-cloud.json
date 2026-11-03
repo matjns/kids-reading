@@ -1,0 +1,132 @@
+{
+  "id": "what-is-a-cloud",
+  "title": "What Is a Cloud?",
+  "kind": "nonfiction",
+  "level": 1,
+  "order": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A cloud is not made of cotton, smoke, or soft stone."
+    },
+    {
+      "id": "s2",
+      "text": "It is made of tiny water droplets or tiny bits of ice."
+    },
+    {
+      "id": "s3",
+      "text": "Water can float in the air as a gas called water vapor, and vapor is invisible."
+    },
+    {
+      "id": "s4",
+      "text": "When the air cools, that vapor turns into droplets around specks of dust."
+    },
+    {
+      "id": "s5",
+      "text": "The droplets are so small and light that they can stay up."
+    },
+    {
+      "id": "s6",
+      "text": "A puffy white cloud on a fair day is often called a cumulus cloud."
+    },
+    {
+      "id": "s7",
+      "text": "A flat gray sheet of cloud is often called stratus."
+    },
+    {
+      "id": "s8",
+      "text": "A gray cloud is usually thicker, so less sunlight gets through."
+    },
+    {
+      "id": "s9",
+      "text": "If the droplets join together and grow heavy, they can fall as rain."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What clouds are made of and how they form"
+        },
+        {
+          "id": "b",
+          "text": "How to paint a cloud with cotton"
+        },
+        {
+          "id": "c",
+          "text": "Why dust never leaves the ground"
+        },
+        {
+          "id": "d",
+          "text": "How rainbows are named by sailors"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage explains that clouds are droplets or ice, tells how vapor cools into droplets, and names two cloud shapes. That is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s4"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "Water vapor in this passage is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A loud kind of thunder"
+        },
+        {
+          "id": "b",
+          "text": "Water as an invisible gas"
+        },
+        {
+          "id": "c",
+          "text": "A flat gray sheet of cloud"
+        },
+        {
+          "id": "d",
+          "text": "Rain that has already fallen"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says water can float in the air as a gas called water vapor, and that vapor is invisible. The definition is right there.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What is a flat gray sheet of cloud often called?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cumulus"
+        },
+        {
+          "id": "b",
+          "text": "Vapor"
+        },
+        {
+          "id": "c",
+          "text": "Stratus"
+        },
+        {
+          "id": "d",
+          "text": "Pebble"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says a puffy white cloud is often cumulus, and a flat gray sheet is often stratus. The shape in the question matches stratus.",
+      "lookBackSentenceIds": [
+        "s7"
+      ],
+      "id": "q3"
+    }
+  ]
+}

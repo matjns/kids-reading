@@ -1,0 +1,136 @@
+{
+  "id": "tortoise-and-the-hare",
+  "title": "The Tortoise and the Hare",
+  "kind": "fable",
+  "level": 1,
+  "order": 3,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A hare liked to brag that nobody on the hill was faster."
+    },
+    {
+      "id": "s2",
+      "text": "A tortoise said they should race to the old oak and see."
+    },
+    {
+      "id": "s3",
+      "text": "The hare laughed, shot ahead, and was soon out of sight."
+    },
+    {
+      "id": "s4",
+      "text": "The tortoise started slowly and kept the same steady walk."
+    },
+    {
+      "id": "s5",
+      "text": "Halfway there, the hare decided the race was already won."
+    },
+    {
+      "id": "s6",
+      "text": "He lay down in the shade of a bush and closed his eyes."
+    },
+    {
+      "id": "s7",
+      "text": "While the hare slept, the tortoise passed him without a word."
+    },
+    {
+      "id": "s8",
+      "text": "The hare woke, gasped, and sprinted, but the tortoise was already at the oak."
+    },
+    {
+      "id": "s9",
+      "text": "Slow, steady steps had finished the race."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An oak tree that moves to a new hill"
+        },
+        {
+          "id": "b",
+          "text": "A hare who teaches running lessons"
+        },
+        {
+          "id": "c",
+          "text": "A slow racer who keeps going and finishes first"
+        },
+        {
+          "id": "d",
+          "text": "A tortoise who refuses to enter the race"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The hare is faster, but he stops to sleep. The tortoise keeps walking and reaches the oak first. Steady effort is the big idea.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s7",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The hare liked to brag. What does brag mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To walk at a slow, even pace"
+        },
+        {
+          "id": "b",
+          "text": "To hide from the sun in shade"
+        },
+        {
+          "id": "c",
+          "text": "To share a snack with a friend"
+        },
+        {
+          "id": "d",
+          "text": "To talk proudly about yourself"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Brag means to talk proudly about yourself. The hare says nobody is faster, which shows that proud talk.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does the hare stop and sleep?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He thinks he is so far ahead that he cannot lose"
+        },
+        {
+          "id": "b",
+          "text": "The tortoise asks him to take a nap"
+        },
+        {
+          "id": "c",
+          "text": "A storm makes the road too dark"
+        },
+        {
+          "id": "d",
+          "text": "He hurts a paw and must rest"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The story does not say he is sick or that anyone told him to nap. He stops after deciding the race is already won. We can figure out that he feels too sure.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

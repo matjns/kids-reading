@@ -1,0 +1,217 @@
+{
+  "id": "why-the-ocean-is-salty",
+  "title": "Why the Ocean Is Salty",
+  "kind": "nonfiction",
+  "level": 3,
+  "order": 7,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The ocean is salty because minerals have been washing into it for a very long time."
+    },
+    {
+      "id": "s2",
+      "text": "Rain falls on land and seeps into soil and rock."
+    },
+    {
+      "id": "s3",
+      "text": "Some minerals, including salts, dissolve. They mix into the water and are carried along."
+    },
+    {
+      "id": "s4",
+      "text": "Rivers and streams deliver that water to the sea."
+    },
+    {
+      "id": "s5",
+      "text": "When seawater evaporates, the water becomes vapor and leaves the minerals behind."
+    },
+    {
+      "id": "s6",
+      "text": "The salt does not float away with the clouds."
+    },
+    {
+      "id": "s7",
+      "text": "Over millions of years, this pattern made the ocean much saltier than most lakes and rivers."
+    },
+    {
+      "id": "s8",
+      "text": "The seafloor adds minerals too. In some places, seawater seeps into cracks, heats near hot rock, and returns full of dissolved minerals."
+    },
+    {
+      "id": "s9",
+      "text": "Those hot openings are called hydrothermal vents."
+    },
+    {
+      "id": "s10",
+      "text": "Salt is not added by fish, and it is not the leftover of one storm."
+    },
+    {
+      "id": "s11",
+      "text": "A salty taste comes from sodium and other dissolved minerals spread through the water."
+    },
+    {
+      "id": "s12",
+      "text": "If you boiled a pot of seawater, the water would steam away and a crust of salt would remain."
+    },
+    {
+      "id": "s13",
+      "text": "That small experiment is the same idea as evaporation across the ocean, only faster and much smaller."
+    },
+    {
+      "id": "s14",
+      "text": "Fresh rain still falls on the sea, but new minerals keep arriving, and evaporating water leaves salt behind."
+    },
+    {
+      "id": "s15",
+      "text": "The ocean's salt is a slow story written by water, rock, and time."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How fish pour salt into the waves"
+        },
+        {
+          "id": "b",
+          "text": "Why rivers are saltier than the sea"
+        },
+        {
+          "id": "c",
+          "text": "How minerals collect in the ocean and stay there"
+        },
+        {
+          "id": "d",
+          "text": "How one storm made the ocean salty"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Rivers carry dissolved minerals to the sea, evaporation leaves them behind, and vents add more. The long buildup of salt is the main idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s5",
+        "s7"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, dissolve means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To freeze into a hard crust"
+        },
+        {
+          "id": "b",
+          "text": "To float away inside a cloud"
+        },
+        {
+          "id": "c",
+          "text": "To sink as a whole rock"
+        },
+        {
+          "id": "d",
+          "text": "To mix into water so the solid seems to disappear into it"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage says minerals dissolve, then explains that they mix into the water and are carried along. That is the meaning.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What are the hot openings on the seafloor called?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hydrothermal vents"
+        },
+        {
+          "id": "b",
+          "text": "River mouths"
+        },
+        {
+          "id": "c",
+          "text": "Salt crusts"
+        },
+        {
+          "id": "d",
+          "text": "Rain shadows"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage names the hot seafloor openings hydrothermal vents, after describing seawater that heats near hot rock.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why doesn't rain falling on the ocean make the sea fresh over time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rain cannot fall on salt water"
+        },
+        {
+          "id": "b",
+          "text": "Minerals keep arriving, and evaporation leaves salt behind"
+        },
+        {
+          "id": "c",
+          "text": "Rivers carry only pure salt and no water"
+        },
+        {
+          "id": "d",
+          "text": "Clouds put the salt back into every lake"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says fresh rain does fall on the sea. It also says minerals keep arriving and evaporating water leaves salt behind. Those two facts answer the puzzle.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s14"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens first to many of the minerals that start on land?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They form a crust in a cooking pot"
+        },
+        {
+          "id": "b",
+          "text": "They leave the ocean inside clouds"
+        },
+        {
+          "id": "c",
+          "text": "Rainwater dissolves them and rivers carry them to the sea"
+        },
+        {
+          "id": "d",
+          "text": "They heat up in hydrothermal vents"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "On land, the passage starts with rain dissolving minerals. Rivers carry them next. Vents are a separate source, and the pot is only a comparison.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "id": "q5"
+    }
+  ]
+}

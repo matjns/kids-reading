@@ -1,0 +1,138 @@
+{
+  "id": "seeds-need-three-things",
+  "title": "What a Seed Needs",
+  "kind": "nonfiction",
+  "level": 1,
+  "order": 11,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A seed looks quiet, but it holds a young plant inside a tough coat."
+    },
+    {
+      "id": "s2",
+      "text": "Tucked inside are a tiny root, a tiny shoot, and a small store of food."
+    },
+    {
+      "id": "s3",
+      "text": "To sprout, a seed needs water, warmth, and air."
+    },
+    {
+      "id": "s4",
+      "text": "Water softens the coat and wakes the plant."
+    },
+    {
+      "id": "s5",
+      "text": "Warmth is a signal that the coldest weather has passed."
+    },
+    {
+      "id": "s6",
+      "text": "Air lets the growing plant use its stored food."
+    },
+    {
+      "id": "s7",
+      "text": "Soil is helpful because it holds the seed and later feeds the bigger plant."
+    },
+    {
+      "id": "s8",
+      "text": "The first sprout, though, starts with the food already inside the seed."
+    },
+    {
+      "id": "s9",
+      "text": "Many seeds can begin under the ground, in the dark, before any leaf reaches the sun."
+    },
+    {
+      "id": "s10",
+      "text": "After the leaves open, sunlight helps the young plant make new food."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How to paint flowers different colors"
+        },
+        {
+          "id": "b",
+          "text": "Why leaves fall off in a storm"
+        },
+        {
+          "id": "c",
+          "text": "What a seed needs in order to sprout"
+        },
+        {
+          "id": "d",
+          "text": "How soil is dug out of a road"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage names water, warmth, and air, then explains what each one does. Those needs are the main idea, not a single detail.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4",
+        "s6"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Which three things does a seed need in order to sprout?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sunlight, music, and sand"
+        },
+        {
+          "id": "b",
+          "text": "Ice, salt, and wind"
+        },
+        {
+          "id": "c",
+          "text": "Paint, string, and cloth"
+        },
+        {
+          "id": "d",
+          "text": "Water, warmth, and air"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage states the three needs directly: water, warmth, and air. Sunlight matters later, after leaves open.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "A seed is under the soil, where no light reaches yet. What can it still do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Begin to sprout if it has water, warmth, and air"
+        },
+        {
+          "id": "b",
+          "text": "Make food with leaves it does not have"
+        },
+        {
+          "id": "c",
+          "text": "Wait until someone digs it up"
+        },
+        {
+          "id": "d",
+          "text": "Turn into soil before it grows"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage says many seeds begin in the dark and that the first sprout uses food stored inside. Light is not required for that first start.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9"
+      ],
+      "id": "q3"
+    }
+  ]
+}

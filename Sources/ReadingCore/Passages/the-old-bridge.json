@@ -1,0 +1,216 @@
+{
+  "id": "the-old-bridge",
+  "title": "The Old Bridge",
+  "kind": "poem",
+  "level": 3,
+  "order": 12,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The bridge is a stone arch over a slow river."
+    },
+    {
+      "id": "s2",
+      "text": "Its curve holds the road the way a bent arm holds a bundle."
+    },
+    {
+      "id": "s3",
+      "text": "Moss writes green letters in the cracks."
+    },
+    {
+      "id": "s4",
+      "text": "Carts once rattled here. Now footsteps do."
+    },
+    {
+      "id": "s5",
+      "text": "A fisher stands beneath, small in the shade of the arch."
+    },
+    {
+      "id": "s6",
+      "text": "The river taps the same stones it tapped last year."
+    },
+    {
+      "id": "s7",
+      "text": "One block has shifted a thumb's width and then stayed."
+    },
+    {
+      "id": "s8",
+      "text": "Sandy mortar crumbles like coarse sugar at one joint."
+    },
+    {
+      "id": "s9",
+      "text": "Travelers cross without counting the years in that glue."
+    },
+    {
+      "id": "s10",
+      "text": "On the far side, a willow rinses its leaves in the current."
+    },
+    {
+      "id": "s11",
+      "text": "The path climbs, levels out, and climbs again."
+    },
+    {
+      "id": "s12",
+      "text": "Stop at the highest point and you can see both banks."
+    },
+    {
+      "id": "s13",
+      "text": "You can also see the place where the walk began."
+    },
+    {
+      "id": "s14",
+      "text": "The bridge does not hurry anyone."
+    },
+    {
+      "id": "s15",
+      "text": "It keeps a quiet promise: you may cross, and the stones will bear you."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this poem mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A willow that builds a new road"
+        },
+        {
+          "id": "b",
+          "text": "A fisher who owns the river"
+        },
+        {
+          "id": "c",
+          "text": "A cart that refuses to cross"
+        },
+        {
+          "id": "d",
+          "text": "An old bridge that still carries people across"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The poem walks across a worn stone arch and ends with the promise that the stones will still bear a traveler. The lasting bridge is the main idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s14",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "How far has one block shifted?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A thumb's width"
+        },
+        {
+          "id": "b",
+          "text": "A full mile"
+        },
+        {
+          "id": "c",
+          "text": "The length of the river"
+        },
+        {
+          "id": "d",
+          "text": "The height of the willow"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The poem says one block has shifted a thumb's width and then stayed. It does not say the whole bridge has moved.",
+      "lookBackSentenceIds": [
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "Mortar in this poem is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fish swimming under the arch"
+        },
+        {
+          "id": "b",
+          "text": "The material between the stones, called glue in the next line"
+        },
+        {
+          "id": "c",
+          "text": "The highest point of the path"
+        },
+        {
+          "id": "d",
+          "text": "The green moss on the willow"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Sandy mortar crumbles at one joint, and the next line calls it glue that holds years between the blocks. Mortar is that joining material.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "How does the poem feel about the bridge, even with moss and a shifted block?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It expects the bridge to fall at once"
+        },
+        {
+          "id": "b",
+          "text": "It thinks the river has stopped moving"
+        },
+        {
+          "id": "c",
+          "text": "It still trusts the bridge to hold"
+        },
+        {
+          "id": "d",
+          "text": "It wants travelers to turn back"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The poem never says the word trust. Moss, a small shift, and crumbling mortar could seem like danger, but the quiet promise that the stones will bear you is the clue.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s14",
+        "s15"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "Which of these comes last in the poem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carts rattling over the arch"
+        },
+        {
+          "id": "b",
+          "text": "Moss writing in the cracks"
+        },
+        {
+          "id": "c",
+          "text": "The fisher standing in the shade"
+        },
+        {
+          "id": "d",
+          "text": "The promise that the stones will bear you"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Carts, moss, and the fisher appear earlier in the walk. The promise is the poem's final thought, after the view from the high point.",
+      "lookBackSentenceIds": [
+        "s15"
+      ],
+      "id": "q5"
+    }
+  ]
+}

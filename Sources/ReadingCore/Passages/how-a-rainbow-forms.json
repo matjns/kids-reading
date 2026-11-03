@@ -1,0 +1,175 @@
+{
+  "id": "how-a-rainbow-forms",
+  "title": "How a Rainbow Forms",
+  "kind": "nonfiction",
+  "level": 2,
+  "order": 6,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Sunlight looks white, but it is made of many colors traveling together."
+    },
+    {
+      "id": "s2",
+      "text": "A rainbow can appear when that light meets raindrops in the air."
+    },
+    {
+      "id": "s3",
+      "text": "The light enters a drop, bends, and spreads into its colors."
+    },
+    {
+      "id": "s4",
+      "text": "Inside the drop, the light bounces off the back, then bends again as it comes out."
+    },
+    {
+      "id": "s5",
+      "text": "Each color leaves at a slightly different angle, which is why we see bands."
+    },
+    {
+      "id": "s6",
+      "text": "On the main bow, red is on the outside and violet is on the inside."
+    },
+    {
+      "id": "s7",
+      "text": "To see a rainbow, you need the sun behind you and the rain in front of you."
+    },
+    {
+      "id": "s8",
+      "text": "Your own shadow points toward the middle of the bow."
+    },
+    {
+      "id": "s9",
+      "text": "If the rain stops or the sun moves behind clouds, the rainbow can fade."
+    },
+    {
+      "id": "s10",
+      "text": "A second, fainter bow sometimes appears outside the first, with the colors reversed."
+    },
+    {
+      "id": "s11",
+      "text": "A rainbow is not a solid object you could touch. It is light reaching your eyes from many drops at once."
+    },
+    {
+      "id": "s12",
+      "text": "Two people standing apart may see the bow in slightly different places."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How sunlight and raindrops make a rainbow"
+        },
+        {
+          "id": "b",
+          "text": "How to paint a solid arch in the sky"
+        },
+        {
+          "id": "c",
+          "text": "Why shadows are always red and violet"
+        },
+        {
+          "id": "d",
+          "text": "How two people can hold one rainbow"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage follows light into a raindrop, back out as separated colors, and explains where you must stand. That is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s3",
+        "s7"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The light bends inside a raindrop. What does bends mean here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Breaks the drop into dust"
+        },
+        {
+          "id": "b",
+          "text": "Changes direction"
+        },
+        {
+          "id": "c",
+          "text": "Turns the sun off for an hour"
+        },
+        {
+          "id": "d",
+          "text": "Makes a loud cracking sound"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Here, bends means changes direction. The light enters the drop and does not keep going in a straight line, so the colors can spread.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Where is red on the main bow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On the inside, next to violet's place swapped"
+        },
+        {
+          "id": "b",
+          "text": "In the shadow at your feet"
+        },
+        {
+          "id": "c",
+          "text": "On the outside"
+        },
+        {
+          "id": "d",
+          "text": "Only in the second, fainter bow"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says that on the main bow, red is on the outside and violet is on the inside. The fainter bow reverses the colors.",
+      "lookBackSentenceIds": [
+        "s6"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens to the light first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It bounces off the back of the drop"
+        },
+        {
+          "id": "b",
+          "text": "It leaves as separate color bands"
+        },
+        {
+          "id": "c",
+          "text": "It fades when the rain stops"
+        },
+        {
+          "id": "d",
+          "text": "It enters a raindrop"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The path in the passage starts when light enters a drop. Bouncing and leaving come after that. Fading happens later, if the rain stops.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q4"
+    }
+  ]
+}

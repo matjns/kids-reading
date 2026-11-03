@@ -1,0 +1,136 @@
+{
+  "id": "fox-and-the-grapes",
+  "title": "The Fox and the Grapes",
+  "kind": "fable",
+  "level": 1,
+  "order": 1,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A fox was walking under a grapevine when he saw a heavy bunch of grapes."
+    },
+    {
+      "id": "s2",
+      "text": "The grapes hung high above him, round and purple in the sun."
+    },
+    {
+      "id": "s3",
+      "text": "He wanted them at once, so he bent his legs and jumped."
+    },
+    {
+      "id": "s4",
+      "text": "His paws swished through the air and missed the bunch."
+    },
+    {
+      "id": "s5",
+      "text": "He backed up and jumped a second time, then a third time."
+    },
+    {
+      "id": "s6",
+      "text": "Soon he was hot, dusty, and out of breath."
+    },
+    {
+      "id": "s7",
+      "text": "The fox sat down, lifted his nose, and said the grapes were sour anyway."
+    },
+    {
+      "id": "s8",
+      "text": "He walked off as if he did not care about them at all."
+    },
+    {
+      "id": "s9",
+      "text": "The grapes were still sweet. He had not tasted a single one."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fox who pretends he does not want grapes he cannot reach"
+        },
+        {
+          "id": "b",
+          "text": "A fox who learns how to grow a grapevine"
+        },
+        {
+          "id": "c",
+          "text": "A vine that falls down during a windstorm"
+        },
+        {
+          "id": "d",
+          "text": "A fox who shares ripe grapes with friends"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The fox tries, gives up, and calls the grapes sour. He never tastes one. The big idea is that he pretends not to want something he cannot have.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The fox says the grapes are sour. What does sour mean here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very high above the ground"
+        },
+        {
+          "id": "b",
+          "text": "Sharp tasting, not sweet"
+        },
+        {
+          "id": "c",
+          "text": "Soft, warm, and ready to share"
+        },
+        {
+          "id": "d",
+          "text": "Already picked and carried home"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Sour describes a sharp taste, like a lemon. The fox uses that word for the grapes. The last lines also say the grapes were still sweet.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s9"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does the fox say the grapes are sour?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He bit one grape and disliked the taste"
+        },
+        {
+          "id": "b",
+          "text": "A friend told him to leave the vine"
+        },
+        {
+          "id": "c",
+          "text": "He wants to feel better about not getting them"
+        },
+        {
+          "id": "d",
+          "text": "The sun cooked every grape on the vine"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The story never says he tasted a grape. He calls them sour only after he cannot reach them. That clue shows he is covering up his disappointment.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s7",
+        "s9"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

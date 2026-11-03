@@ -1,0 +1,216 @@
+{
+  "id": "the-monarch-trip",
+  "title": "The Monarch Butterfly Trip",
+  "kind": "nonfiction",
+  "level": 3,
+  "order": 6,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Monarch butterflies are famous for a journey that is astonishing for such light wings."
+    },
+    {
+      "id": "s2",
+      "text": "In eastern North America, many monarchs fly south in the fall toward mountain forests in central Mexico."
+    },
+    {
+      "id": "s3",
+      "text": "The trip can cover thousands of miles."
+    },
+    {
+      "id": "s4",
+      "text": "The butterflies that reach Mexico are a special long-lived generation."
+    },
+    {
+      "id": "s5",
+      "text": "They spend the winter clustered in the trees, then start north when the season turns."
+    },
+    {
+      "id": "s6",
+      "text": "Most of them do not fly all the way back to the farthest summer places."
+    },
+    {
+      "id": "s7",
+      "text": "They lay eggs on milkweed, and the next generation, then the generation after that, continues the trip."
+    },
+    {
+      "id": "s8",
+      "text": "It can take several generations to fill the summer range again."
+    },
+    {
+      "id": "s9",
+      "text": "Milkweed matters because it is the plant monarch caterpillars eat."
+    },
+    {
+      "id": "s10",
+      "text": "If there is no milkweed, there are no caterpillars, even if adult butterflies can sip nectar from other flowers."
+    },
+    {
+      "id": "s11",
+      "text": "Not every butterfly migrates this way. The monarch's long trip is unusual."
+    },
+    {
+      "id": "s12",
+      "text": "Storms, sudden cold, and the loss of forests and milkweed can all make their numbers smaller."
+    },
+    {
+      "id": "s13",
+      "text": "People help by protecting the winter groves and by leaving milkweed in gardens and along roadsides."
+    },
+    {
+      "id": "s14",
+      "text": "A monarch in a summer field may be the grandchild of one that left Mexico in the spring."
+    },
+    {
+      "id": "s15",
+      "text": "The orange wings look delicate, but the journey is a chain of lives, not a single afternoon."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How to paint orange wings on any insect"
+        },
+        {
+          "id": "b",
+          "text": "The long monarch migration and the generations that continue it"
+        },
+        {
+          "id": "c",
+          "text": "Why all butterflies spend winter in one tree"
+        },
+        {
+          "id": "d",
+          "text": "How nectar replaces the need for any plant"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage describes the flight to Mexico, the winter rest, and the generations that carry the trip north. That chain is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s7",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Where do many eastern monarchs spend the winter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inside every summer garden"
+        },
+        {
+          "id": "b",
+          "text": "On milkweed the whole year"
+        },
+        {
+          "id": "c",
+          "text": "In mountain forests in central Mexico"
+        },
+        {
+          "id": "d",
+          "text": "At the North Pole"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says many monarchs from eastern North America fly to mountain forests in central Mexico for the winter.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The butterflies spend winter clustered in the trees. Clustered means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flying thousands of miles in one hour"
+        },
+        {
+          "id": "b",
+          "text": "Eating only nectar from roses"
+        },
+        {
+          "id": "c",
+          "text": "Sleeping under the soil"
+        },
+        {
+          "id": "d",
+          "text": "Gathered closely together"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Clustered means gathered closely together. The passage pictures the winter butterflies grouped in the trees.",
+      "lookBackSentenceIds": [
+        "s5"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "A town mows down all its milkweed but plants flowers that adult butterflies like. What can a reader figure out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Caterpillars still will not have their food, so the problem is only partly solved"
+        },
+        {
+          "id": "b",
+          "text": "Caterpillars can eat any bright flower"
+        },
+        {
+          "id": "c",
+          "text": "The winter forests are no longer needed"
+        },
+        {
+          "id": "d",
+          "text": "Migration will become a one-day trip"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Adults may sip nectar from many flowers, but the passage says caterpillars eat milkweed. Flowers alone do not replace that plant.",
+      "lookBackSentenceIds": [
+        "s9",
+        "s10"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "Which order matches the big trip?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Spend winter in Mexico, fly south, then stop migrating"
+        },
+        {
+          "id": "b",
+          "text": "Fly south, spend winter in Mexico, start north, and later generations continue"
+        },
+        {
+          "id": "c",
+          "text": "Lay all the eggs in Mexico, then fly south for summer"
+        },
+        {
+          "id": "d",
+          "text": "One butterfly flies the whole round trip in a single day"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage moves from the fall flight south, to winter in Mexico, to the start north, and then to later generations. That is the order to keep.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s5",
+        "s7"
+      ],
+      "id": "q5"
+    }
+  ]
+}

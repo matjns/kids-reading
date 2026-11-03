@@ -1,0 +1,174 @@
+{
+  "id": "campfire-colors",
+  "title": "Campfire Colors",
+  "kind": "poem",
+  "level": 2,
+  "order": 15,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A grown-up tends the fire in a ring of stones."
+    },
+    {
+      "id": "s2",
+      "text": "First the flames are pale and tall."
+    },
+    {
+      "id": "s3",
+      "text": "Then they settle into orange curls."
+    },
+    {
+      "id": "s4",
+      "text": "A blue tongue flickers close to the wood."
+    },
+    {
+      "id": "s5",
+      "text": "Sparks climb and vanish like brief stars."
+    },
+    {
+      "id": "s6",
+      "text": "The logs tick as heat finds the sap inside."
+    },
+    {
+      "id": "s7",
+      "text": "Marshmallows turn gold, then brown, at the edge of the heat."
+    },
+    {
+      "id": "s8",
+      "text": "Nobody crowds the ring of stones."
+    },
+    {
+      "id": "s9",
+      "text": "Smoke walks off toward the pine trees."
+    },
+    {
+      "id": "s10",
+      "text": "When the flames shrink, embers keep a red glow."
+    },
+    {
+      "id": "s11",
+      "text": "That low glow is quieter than the beginning,"
+    },
+    {
+      "id": "s12",
+      "text": "and it lasts long enough for one more story."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this poem mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A campfire changing color as it settles down"
+        },
+        {
+          "id": "b",
+          "text": "A pine tree that learns to cook"
+        },
+        {
+          "id": "c",
+          "text": "A marshmallow that builds a stone ring"
+        },
+        {
+          "id": "d",
+          "text": "A grown-up who puts the fire out at once"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The poem watches the fire from tall pale flames to orange, sparks, and finally quiet embers. The changing fire is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s3",
+        "s10"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "Embers in this poem are what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The pine trees far from the fire"
+        },
+        {
+          "id": "b",
+          "text": "The hot glow left after the flames shrink"
+        },
+        {
+          "id": "c",
+          "text": "The stones before they are stacked"
+        },
+        {
+          "id": "d",
+          "text": "The first tall pale flames"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The poem says that when the flames shrink, embers keep a red glow. Embers are that hot, quieter stage of the fire.",
+      "lookBackSentenceIds": [
+        "s10",
+        "s11"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Who tends the fire?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The pine trees"
+        },
+        {
+          "id": "b",
+          "text": "A marshmallow"
+        },
+        {
+          "id": "c",
+          "text": "A grown-up"
+        },
+        {
+          "id": "d",
+          "text": "The blue smoke alone"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The first line says a grown-up tends the fire in a ring of stones. Nobody else is given that job.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "Which of these comes last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The flames are pale and tall"
+        },
+        {
+          "id": "b",
+          "text": "Sparks climb like brief stars"
+        },
+        {
+          "id": "c",
+          "text": "Marshmallows turn gold"
+        },
+        {
+          "id": "d",
+          "text": "Embers keep a red glow"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Pale flames start the poem. Sparks and marshmallows come in the middle. The red ember glow is near the end, before the last quiet story.",
+      "lookBackSentenceIds": [
+        "s10"
+      ],
+      "id": "q4"
+    }
+  ]
+}

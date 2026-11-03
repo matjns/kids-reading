@@ -1,0 +1,210 @@
+{
+  "id": "the-fox-and-the-crow",
+  "title": "The Fox and the Crow",
+  "kind": "fable",
+  "level": 3,
+  "order": 3,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A crow settled on a branch with a piece of cheese held in her beak."
+    },
+    {
+      "id": "s2",
+      "text": "A hungry fox saw the cheese and stopped underneath the branch."
+    },
+    {
+      "id": "s3",
+      "text": "The fox did not try to climb. He spoke in a smooth, admiring voice."
+    },
+    {
+      "id": "s4",
+      "text": "What a noble bird, he said. Your feathers shine, and I have heard that your song is the sweetest in the wood."
+    },
+    {
+      "id": "s5",
+      "text": "The crow had never been praised so richly. She stood a little taller on the branch."
+    },
+    {
+      "id": "s6",
+      "text": "The fox went on. If your voice matches your beauty, you must be the finest singer in these trees."
+    },
+    {
+      "id": "s7",
+      "text": "The crow wanted to prove the song was real. She opened her beak to caw."
+    },
+    {
+      "id": "s8",
+      "text": "The cheese fell. The fox caught it before it touched the moss and ate it in one bite."
+    },
+    {
+      "id": "s9",
+      "text": "I wanted the cheese, he said. Your wish to be admired handed it to me."
+    },
+    {
+      "id": "s10",
+      "text": "The crow sat very still. The praise had felt wonderful, and that feeling had been the trap."
+    },
+    {
+      "id": "s11",
+      "text": "Not every compliment is a gift. Some compliments are a handle someone else is trying to turn."
+    },
+    {
+      "id": "s12",
+      "text": "The crow still had a good voice. She had used it at the moment a sly listener hoped she would."
+    },
+    {
+      "id": "s13",
+      "text": "After that, she finished a crust of bread in a quieter tree and did not sing for an audience below."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A crow who teaches the fox a new song"
+        },
+        {
+          "id": "b",
+          "text": "A branch that grows cheese in the spring"
+        },
+        {
+          "id": "c",
+          "text": "Praise used as a trick to get something valuable"
+        },
+        {
+          "id": "d",
+          "text": "A fox who shares his meal with the wood"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The fox praises the crow until she opens her beak and drops the cheese. The praise was a trick. That is the main idea.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s8",
+        "s11"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What falls from the crow's beak?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A crust of bread"
+        },
+        {
+          "id": "b",
+          "text": "A shiny feather"
+        },
+        {
+          "id": "c",
+          "text": "A small bell"
+        },
+        {
+          "id": "d",
+          "text": "A piece of cheese"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The crow begins with cheese in her beak, and that cheese falls when she caws. The crust of bread comes later, in another tree.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s8"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The fox speaks in an admiring voice. What does admiring mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Showing that you think highly of someone"
+        },
+        {
+          "id": "b",
+          "text": "Speaking too quietly to be heard"
+        },
+        {
+          "id": "c",
+          "text": "Asking for directions in the wood"
+        },
+        {
+          "id": "d",
+          "text": "Sounding angry and impatient"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Admiring means showing high regard. The fox calls the crow noble and praises her feathers and song, which is admiring talk.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Before the fox admits his plan, what can a reader already figure out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fox wants singing lessons"
+        },
+        {
+          "id": "b",
+          "text": "The praise is a trick to make the crow open her beak"
+        },
+        {
+          "id": "c",
+          "text": "The cheese belongs to the fox already"
+        },
+        {
+          "id": "d",
+          "text": "The crow cannot make any sound"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The fox is hungry, he sees the cheese, and he does not climb. He keeps praising until the beak opens. Those clues reveal the trick even before he says it plainly.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s3",
+        "s7"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fox begins his praise"
+        },
+        {
+          "id": "b",
+          "text": "The crow opens her beak to caw"
+        },
+        {
+          "id": "c",
+          "text": "The crow eats bread in a quieter tree"
+        },
+        {
+          "id": "d",
+          "text": "The cheese falls to the fox"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The praise, the song, and the dropped cheese come first. The last event is the crow finishing bread where she will not perform for a listener below.",
+      "lookBackSentenceIds": [
+        "s13"
+      ],
+      "id": "q5"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

@@ -1,0 +1,137 @@
+{
+  "id": "a-morning-at-the-library",
+  "title": "A Morning at the Library",
+  "kind": "fiction",
+  "level": 1,
+  "order": 14,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The library doors opened at nine, and the room smelled like paper and polish."
+    },
+    {
+      "id": "s2",
+      "text": "The librarian rolled a cart of returned books to a sunny table."
+    },
+    {
+      "id": "s3",
+      "text": "One book showed whales diving under blue water."
+    },
+    {
+      "id": "s4",
+      "text": "Another book was full of maps of long rivers."
+    },
+    {
+      "id": "s5",
+      "text": "A visitor asked for a book that explained storms."
+    },
+    {
+      "id": "s6",
+      "text": "The librarian did not guess. She checked the computer, then walked to a shelf."
+    },
+    {
+      "id": "s7",
+      "text": "She pulled down a book with a dark cloud on the cover."
+    },
+    {
+      "id": "s8",
+      "text": "This one tells how thunder is made, she said."
+    },
+    {
+      "id": "s9",
+      "text": "The visitor smiled, chose a quiet chair, and opened to the first page."
+    },
+    {
+      "id": "s10",
+      "text": "A library works well when the people there know how to look things up."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A whale that swims into the library"
+        },
+        {
+          "id": "b",
+          "text": "A storm that closes the doors at nine"
+        },
+        {
+          "id": "c",
+          "text": "A visitor who already knows every shelf"
+        },
+        {
+          "id": "d",
+          "text": "A librarian finding the right book by looking it up"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The visitor asks about storms, and the librarian checks the computer and the shelf before choosing a book. Looking things up is the main idea.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s8",
+        "s10"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "Returned books are books that people did what with?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brought them back"
+        },
+        {
+          "id": "b",
+          "text": "Wrote them that morning"
+        },
+        {
+          "id": "c",
+          "text": "Threw them into the river"
+        },
+        {
+          "id": "d",
+          "text": "Hid them under a chair"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Returned means brought back. The librarian rolls a cart of books people have brought back to the library.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What is on the cover of the storm book?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A blue whale"
+        },
+        {
+          "id": "b",
+          "text": "A dark cloud"
+        },
+        {
+          "id": "c",
+          "text": "A map of a river"
+        },
+        {
+          "id": "d",
+          "text": "A sunny table"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The librarian pulls down a book with a dark cloud on the cover. The whale and the river maps are other books on the cart.",
+      "lookBackSentenceIds": [
+        "s7"
+      ],
+      "id": "q3"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "fossils-in-the-rock",
+  "title": "Fossils in the Rock",
+  "kind": "nonfiction",
+  "level": 3,
+  "order": 8,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A fossil is the preserved remains, or the preserved trace, of a living thing from long ago."
+    },
+    {
+      "id": "s2",
+      "text": "A bone, a shell, a tooth, a footprint, or the print of a leaf can all be fossils."
+    },
+    {
+      "id": "s3",
+      "text": "Most plants and animals never become fossils. They are eaten, or they decay."
+    },
+    {
+      "id": "s4",
+      "text": "Hard parts are saved more often than soft skin, though prints of leaves do exist."
+    },
+    {
+      "id": "s5",
+      "text": "One common path starts when a shell or bone is buried quickly in mud or sand."
+    },
+    {
+      "id": "s6",
+      "text": "Burial can protect it from weather and from some animals that would scatter it."
+    },
+    {
+      "id": "s7",
+      "text": "Over a long time, minerals in the water can fill tiny spaces or replace the original material."
+    },
+    {
+      "id": "s8",
+      "text": "The shape remains, but much of what you see in a museum may now be stone."
+    },
+    {
+      "id": "s9",
+      "text": "A footprint can be a fossil even though no body is there. It is a trace of an action."
+    },
+    {
+      "id": "s10",
+      "text": "Scientists study fossils to learn what lived, what it ate, and what the place was like."
+    },
+    {
+      "id": "s11",
+      "text": "Not every fossil is a dinosaur. Dinosaurs are only one famous group."
+    },
+    {
+      "id": "s12",
+      "text": "Sea creatures, insects, plants, and very small living things appear in the fossil record too."
+    },
+    {
+      "id": "s13",
+      "text": "In a stack of rock that has not been badly folded, deeper layers are usually older than the layers above them."
+    },
+    {
+      "id": "s14",
+      "text": "A fossil in a lower layer is usually from an earlier time than a fossil higher in that same stack."
+    },
+    {
+      "id": "s15",
+      "text": "Fossils are rare records. Chipping them out of a park or a cliff for a souvenir can destroy the record for everyone."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How to carve a souvenir from any cliff"
+        },
+        {
+          "id": "b",
+          "text": "Why every bone becomes a dinosaur"
+        },
+        {
+          "id": "c",
+          "text": "How mud stops all plants from decaying"
+        },
+        {
+          "id": "d",
+          "text": "What fossils are and what they can tell us"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage defines fossils, explains one way they form, and says scientists use them to learn about past life. That whole subject is the main idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s10",
+        "s11"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Which example is a trace fossil, with no body left behind?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A footprint"
+        },
+        {
+          "id": "b",
+          "text": "A tooth"
+        },
+        {
+          "id": "c",
+          "text": "A shell"
+        },
+        {
+          "id": "d",
+          "text": "A bone"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage says a footprint can be a fossil even though no body is there, because it is a trace of an action. Bones, shells, and teeth are body parts.",
+      "lookBackSentenceIds": [
+        "s9"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, decay means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To turn into a footprint"
+        },
+        {
+          "id": "b",
+          "text": "To rot or break down"
+        },
+        {
+          "id": "c",
+          "text": "To be buried in a museum"
+        },
+        {
+          "id": "d",
+          "text": "To fold a layer of rock"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says most living things never become fossils because they are eaten or they decay. Here decay means to rot or break down.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does quick burial help a shell become a fossil?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It makes every soft animal turn to stone overnight"
+        },
+        {
+          "id": "b",
+          "text": "It proves the shell is a dinosaur"
+        },
+        {
+          "id": "c",
+          "text": "It protects the shell so the shape has a chance to be preserved"
+        },
+        {
+          "id": "d",
+          "text": "It lifts the shell into a higher, younger layer"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says burial can protect remains from weather and from animals that would scatter them. A reader can connect that protection to a better chance of preservation.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s6"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "In an undisturbed stack of rock, which fossil is usually older?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The one in the top layer"
+        },
+        {
+          "id": "b",
+          "text": "The one found loose on a path"
+        },
+        {
+          "id": "c",
+          "text": "The one that is only a leaf"
+        },
+        {
+          "id": "d",
+          "text": "The one in the deeper layer"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage says deeper layers are usually older if the rocks have not been badly folded. A fossil lower in that stack is usually from an earlier time.",
+      "lookBackSentenceIds": [
+        "s13",
+        "s14"
+      ],
+      "id": "q5"
+    }
+  ]
+}

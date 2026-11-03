@@ -1,0 +1,135 @@
+{
+  "id": "magnets-pull",
+  "title": "What Magnets Pull",
+  "kind": "nonfiction",
+  "level": 1,
+  "order": 10,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A magnet can pull on some metals, but not on every metal."
+    },
+    {
+      "id": "s2",
+      "text": "Iron, nickel, and cobalt are metals a magnet can attract."
+    },
+    {
+      "id": "s3",
+      "text": "Wood, plastic, cloth, and aluminum do not stick to an ordinary magnet."
+    },
+    {
+      "id": "s4",
+      "text": "A steel paper clip sticks because steel has iron in it."
+    },
+    {
+      "id": "s5",
+      "text": "Every magnet has two ends, called the north pole and the south pole."
+    },
+    {
+      "id": "s6",
+      "text": "Opposite poles pull toward each other."
+    },
+    {
+      "id": "s7",
+      "text": "Two north poles, or two south poles, push apart."
+    },
+    {
+      "id": "s8",
+      "text": "You can feel that push if you try to press those matching ends together."
+    },
+    {
+      "id": "s9",
+      "text": "Magnets are useful in compasses, in many toys, and inside some spinning motors."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How to build a motor from wood"
+        },
+        {
+          "id": "b",
+          "text": "Why aluminum is a kind of cloth"
+        },
+        {
+          "id": "c",
+          "text": "How paper clips are made in a factory"
+        },
+        {
+          "id": "d",
+          "text": "Which things magnets pull, and how their poles act"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage lists metals a magnet can pull, materials it cannot pull, and how the two poles attract or push. Those ideas cover the whole passage.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s2",
+        "s6"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Which of these sticks to an ordinary magnet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A steel paper clip"
+        },
+        {
+          "id": "b",
+          "text": "An aluminum spoon"
+        },
+        {
+          "id": "c",
+          "text": "A wooden block"
+        },
+        {
+          "id": "d",
+          "text": "A plastic cup"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage says a steel paper clip sticks because steel has iron in it. It also says aluminum, wood, and plastic do not stick.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, attract means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To push apart"
+        },
+        {
+          "id": "b",
+          "text": "To pull toward"
+        },
+        {
+          "id": "c",
+          "text": "To melt into liquid"
+        },
+        {
+          "id": "d",
+          "text": "To paint a new color"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says a magnet can attract iron, nickel, and cobalt, right after saying a magnet can pull on some metals. Attract means to pull toward.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s2"
+      ],
+      "id": "q3"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "ant-and-the-grasshopper",
+  "title": "The Ant and the Grasshopper",
+  "kind": "fable",
+  "level": 1,
+  "order": 4,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "All summer the ant carried grain to a dry storeroom."
+    },
+    {
+      "id": "s2",
+      "text": "The grasshopper sat in the sun and played a bright little tune."
+    },
+    {
+      "id": "s3",
+      "text": "Come and rest, he called. There is plenty of time."
+    },
+    {
+      "id": "s4",
+      "text": "The ant shook her head and said winter does not wait."
+    },
+    {
+      "id": "s5",
+      "text": "She kept working, one seed after another, day after day."
+    },
+    {
+      "id": "s6",
+      "text": "When the cold wind came, the grasshopper's belly was empty."
+    },
+    {
+      "id": "s7",
+      "text": "He went to the storeroom and listened to the wind outside."
+    },
+    {
+      "id": "s8",
+      "text": "The ant opened the door, shared a bowl of grain, and said they could store food together next year."
+    },
+    {
+      "id": "s9",
+      "text": "The grasshopper nodded, warm at last, and put his fiddle down."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fiddle that can only be played in snow"
+        },
+        {
+          "id": "b",
+          "text": "Getting ready for a hard season, and then sharing"
+        },
+        {
+          "id": "c",
+          "text": "An ant who forgets where the grain is kept"
+        },
+        {
+          "id": "d",
+          "text": "A summer day with no work at all"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The ant stores food while the weather is easy. Winter comes, and she shares with the grasshopper. Preparing and helping are the big idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s6",
+        "s8"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The ant uses a storeroom. What is a storeroom?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A song played on a fiddle"
+        },
+        {
+          "id": "b",
+          "text": "A cold wind from the north"
+        },
+        {
+          "id": "c",
+          "text": "A place where supplies are kept"
+        },
+        {
+          "id": "d",
+          "text": "A bowl used only for water"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "A storeroom is a place for keeping supplies. The ant carries grain there so there will be food later.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The ant carries grain in summer"
+        },
+        {
+          "id": "b",
+          "text": "The grasshopper plays a tune"
+        },
+        {
+          "id": "c",
+          "text": "The cold wind begins to blow"
+        },
+        {
+          "id": "d",
+          "text": "The grasshopper puts his fiddle down"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "First the ant works through summer. Then winter comes. At the end, after the shared bowl, the grasshopper puts his fiddle down.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "Inspired by a public-domain fable by Aesop. The wording is original, and the ending is gentler than the older version."
+}

@@ -1,0 +1,215 @@
+{
+  "id": "the-map-in-the-drawer",
+  "title": "The Map in the Drawer",
+  "kind": "fiction",
+  "level": 3,
+  "order": 10,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A mapmaker opened a wide drawer and found a map that did not match the modern streets."
+    },
+    {
+      "id": "s2",
+      "text": "The paper was soft at the folds, and the ink had faded to a brown whisper."
+    },
+    {
+      "id": "s3",
+      "text": "The river on the old map bent in the same place as the river outside the window."
+    },
+    {
+      "id": "s4",
+      "text": "A bridge was drawn there too, but the mapmaker knew the current bridge stood a mile upstream."
+    },
+    {
+      "id": "s5",
+      "text": "Curious, the mapmaker copied the old bend onto a fresh sheet and walked down to the river."
+    },
+    {
+      "id": "s6",
+      "text": "Willows leaned over the water. There was no bridge, only a tumble of cut stones in the shallows."
+    },
+    {
+      "id": "s7",
+      "text": "The stones were squared, not like ordinary river rocks, and moss grew on their flat tops."
+    },
+    {
+      "id": "s8",
+      "text": "They lined up with the two banks, as if they had once reached toward each other."
+    },
+    {
+      "id": "s9",
+      "text": "The mapmaker knelt, measured the gap with a length of string, and compared it with the old drawing."
+    },
+    {
+      "id": "s10",
+      "text": "The gap matched the width of the bridge on the old map."
+    },
+    {
+      "id": "s11",
+      "text": "Those stones were the feet of a bridge the town no longer used."
+    },
+    {
+      "id": "s12",
+      "text": "Back at the desk, the mapmaker added a note to the new map: old bridge base, seen at low water."
+    },
+    {
+      "id": "s13",
+      "text": "The modern streets stayed as they are. The past was added as a careful note, not as a guess."
+    },
+    {
+      "id": "s14",
+      "text": "A map can be out of date for today and still tell the truth about yesterday."
+    },
+    {
+      "id": "s15",
+      "text": "The test is to check the drawing against the ground before believing every line."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Building a new bridge a mile upstream in one day"
+        },
+        {
+          "id": "b",
+          "text": "Checking an old map against the river before trusting it"
+        },
+        {
+          "id": "c",
+          "text": "Throwing away every map that looks old"
+        },
+        {
+          "id": "d",
+          "text": "Moving the river so it matches a drawing"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The mapmaker notices a mismatch, walks to the river, measures, and only then writes a note. Testing the map is the main idea.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s10",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "Where is the current bridge compared with the old drawing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mile out to sea"
+        },
+        {
+          "id": "b",
+          "text": "Under the mapmaker's desk"
+        },
+        {
+          "id": "c",
+          "text": "A mile upstream"
+        },
+        {
+          "id": "d",
+          "text": "On top of the willows"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The story says the current bridge stands a mile upstream from the bridge drawn on the old map.",
+      "lookBackSentenceIds": [
+        "s4"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The ink had faded. What does faded mean here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Become brighter than new ink"
+        },
+        {
+          "id": "b",
+          "text": "Turned into a river bend"
+        },
+        {
+          "id": "c",
+          "text": "Been copied onto a fresh sheet"
+        },
+        {
+          "id": "d",
+          "text": "Grown faint with age"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Faded means grown faint. The ink has become a brown whisper on soft, folded paper, which shows age rather than fresh color.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why do the squared stones matter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are not ordinary rocks, and their gap matches the old bridge"
+        },
+        {
+          "id": "b",
+          "text": "They prove the river was drawn backward"
+        },
+        {
+          "id": "c",
+          "text": "They show the current bridge is still in that spot"
+        },
+        {
+          "id": "d",
+          "text": "They mean the mapmaker measured the wrong bend"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Ordinary river rocks are not squared, and these stones line up with the banks. The matching width is another clue that they belonged to the old bridge.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s10",
+        "s11"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What does the mapmaker do first after copying the bend?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Measures the gap with string"
+        },
+        {
+          "id": "b",
+          "text": "Walks down to the river"
+        },
+        {
+          "id": "c",
+          "text": "Writes a note on the new map"
+        },
+        {
+          "id": "d",
+          "text": "Decides the streets must be redrawn"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Copying the bend leads straight to the walk. Measuring and writing the note happen after the mapmaker is at the river.",
+      "lookBackSentenceIds": [
+        "s5"
+      ],
+      "id": "q5"
+    }
+  ]
+}

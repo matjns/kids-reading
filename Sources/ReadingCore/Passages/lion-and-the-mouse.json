@@ -1,0 +1,134 @@
+{
+  "id": "lion-and-the-mouse",
+  "title": "The Lion and the Mouse",
+  "kind": "fable",
+  "level": 1,
+  "order": 2,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A lion was asleep in the warm grass when a mouse ran across his paw."
+    },
+    {
+      "id": "s2",
+      "text": "The lion woke with a growl and set his huge paw over the mouse."
+    },
+    {
+      "id": "s3",
+      "text": "Please let me go, said the mouse. One day I may help you."
+    },
+    {
+      "id": "s4",
+      "text": "The lion laughed because the mouse was tiny, but he lifted his paw."
+    },
+    {
+      "id": "s5",
+      "text": "The mouse darted into the grass and was gone."
+    },
+    {
+      "id": "s6",
+      "text": "Weeks later, hunters left the lion tied in a strong rope net."
+    },
+    {
+      "id": "s7",
+      "text": "He pulled and roared, but the knots held tight."
+    },
+    {
+      "id": "s8",
+      "text": "The mouse heard him, ran to the net, and chewed the rope until it split."
+    },
+    {
+      "id": "s9",
+      "text": "The lion stepped free. The tiny mouse had kept the promise."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hunters who cannot find their way in the grass"
+        },
+        {
+          "id": "b",
+          "text": "A lion who learns how to sleep all day"
+        },
+        {
+          "id": "c",
+          "text": "A rope net that nobody is able to open"
+        },
+        {
+          "id": "d",
+          "text": "A small mouse who later helps the lion that let him go"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The lion lets the mouse go, and later the mouse chews the net so the lion can step free. The whole story is about that returned help.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s8",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mouse runs across the lion's paw"
+        },
+        {
+          "id": "b",
+          "text": "Hunters tie the lion inside a net"
+        },
+        {
+          "id": "c",
+          "text": "The mouse chews through the rope"
+        },
+        {
+          "id": "d",
+          "text": "The lion steps out and goes free"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "At the start, the lion is asleep and the mouse runs over his paw. The net, the chewing, and the escape all come later.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "How does the mouse free the lion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By roaring loudly at the hunters"
+        },
+        {
+          "id": "b",
+          "text": "By chewing the rope until it splits"
+        },
+        {
+          "id": "c",
+          "text": "By digging a tunnel under the net"
+        },
+        {
+          "id": "d",
+          "text": "By calling a much bigger animal"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The story says the mouse chewed the rope until it split. That is the exact way the lion gets out of the net.",
+      "lookBackSentenceIds": [
+        "s8"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

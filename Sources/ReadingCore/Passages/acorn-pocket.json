@@ -1,0 +1,142 @@
+{
+  "id": "acorn-pocket",
+  "title": "Acorn Pocket",
+  "kind": "poem",
+  "level": 1,
+  "order": 16,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A coat pocket bulges at the corner."
+    },
+    {
+      "id": "s2",
+      "text": "Inside are six smooth acorns,"
+    },
+    {
+      "id": "s3",
+      "text": "each wearing a rough little cap."
+    },
+    {
+      "id": "s4",
+      "text": "They were picked up under the oak"
+    },
+    {
+      "id": "s5",
+      "text": "after the wind shook the branches."
+    },
+    {
+      "id": "s6",
+      "text": "One acorn is pale, like toast."
+    },
+    {
+      "id": "s7",
+      "text": "Another is dark and glossy."
+    },
+    {
+      "id": "s8",
+      "text": "A squirrel has a hiding place too,"
+    },
+    {
+      "id": "s9",
+      "text": "somewhere under the damp leaves."
+    },
+    {
+      "id": "s10",
+      "text": "These acorns are only visiting the pocket"
+    },
+    {
+      "id": "s11",
+      "text": "until they are set on the windowsill to dry."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this poem mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A squirrel that lives in a coat"
+        },
+        {
+          "id": "b",
+          "text": "Acorns collected on a walk and kept for a little while"
+        },
+        {
+          "id": "c",
+          "text": "A windowsill made out of toast"
+        },
+        {
+          "id": "d",
+          "text": "An oak that walks into a house"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The poem describes acorns in a pocket, where they came from, and that they will dry on a windowsill. Collecting them is the main idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s4",
+        "s11"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "How many acorns are in the pocket?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two"
+        },
+        {
+          "id": "b",
+          "text": "Ten"
+        },
+        {
+          "id": "c",
+          "text": "Six"
+        },
+        {
+          "id": "d",
+          "text": "Twenty"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The poem says there are six smooth acorns inside the pocket. The pale one and the dark one are examples, not a new total.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The pocket bulges. What does bulges mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Becomes empty and flat"
+        },
+        {
+          "id": "b",
+          "text": "Changes color in the rain"
+        },
+        {
+          "id": "c",
+          "text": "Closes with a tiny key"
+        },
+        {
+          "id": "d",
+          "text": "Sticks out because it is full"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Bulges means sticks out or swells. The pocket bulges at the corner because the acorns are inside it.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s2"
+      ],
+      "id": "q3"
+    }
+  ]
+}

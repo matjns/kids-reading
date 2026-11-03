@@ -1,0 +1,217 @@
+{
+  "id": "the-farmer-and-the-milk-pail",
+  "title": "The Farmer and the Milk Pail",
+  "kind": "fable",
+  "level": 3,
+  "order": 2,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A farmer walked to market with a pail of milk balanced on one shoulder."
+    },
+    {
+      "id": "s2",
+      "text": "The road was long, so the farmer filled the quiet with plans."
+    },
+    {
+      "id": "s3",
+      "text": "I will sell this milk and buy a dozen eggs, the farmer said."
+    },
+    {
+      "id": "s4",
+      "text": "The eggs will hatch into chickens, and the chickens will bring a fine price."
+    },
+    {
+      "id": "s5",
+      "text": "With that price I will buy a new coat, and people will notice me when I pass."
+    },
+    {
+      "id": "s6",
+      "text": "The farmer pictured the coat so clearly that a proud little toss of the head followed."
+    },
+    {
+      "id": "s7",
+      "text": "The toss was small, but the pail was heavy and riding high."
+    },
+    {
+      "id": "s8",
+      "text": "It slid, tipped, and hit the road. Milk ran into the dust in a white stream."
+    },
+    {
+      "id": "s9",
+      "text": "There would be no eggs, no chickens, and no coat, because there was no milk left to sell."
+    },
+    {
+      "id": "s10",
+      "text": "The farmer stood still and watched the plan soak into the ground."
+    },
+    {
+      "id": "s11",
+      "text": "A traveler coming the other way offered a rag for the farmer's shoes."
+    },
+    {
+      "id": "s12",
+      "text": "I counted a coat I did not have, the farmer said, and I lost the milk I did have."
+    },
+    {
+      "id": "s13",
+      "text": "The farmer rinsed the empty pail at a roadside pump and turned back toward home."
+    },
+    {
+      "id": "s14",
+      "text": "Dreaming can be pleasant company on a long road."
+    },
+    {
+      "id": "s15",
+      "text": "Treating a dream as if it were already money is how a real pail ends up empty."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A traveler who buys every egg in town"
+        },
+        {
+          "id": "b",
+          "text": "Counting on a plan before the first sale is real"
+        },
+        {
+          "id": "c",
+          "text": "A coat that keeps milk from spilling"
+        },
+        {
+          "id": "d",
+          "text": "A pump that turns milk into chickens"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Every later plan depends on selling the milk. The milk spills, and the eggs, chickens, and coat disappear with it. That is the main idea.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What is in the pail at the start?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A dozen eggs"
+        },
+        {
+          "id": "b",
+          "text": "A folded coat"
+        },
+        {
+          "id": "c",
+          "text": "Milk"
+        },
+        {
+          "id": "d",
+          "text": "Chickens"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The farmer starts with a pail of milk. The eggs, chickens, and coat exist only in the plan.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "A proud little toss of the head is what kind of movement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A long drink from the pail"
+        },
+        {
+          "id": "b",
+          "text": "A slow walk back home"
+        },
+        {
+          "id": "c",
+          "text": "A careful count of coins"
+        },
+        {
+          "id": "d",
+          "text": "A quick upward movement"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "A toss here is a quick throw of the head upward. That small movement is enough to unbalance the heavy pail.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why do all the plans fail at the same moment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They all depended on milk that spilled before any sale"
+        },
+        {
+          "id": "b",
+          "text": "The market refused to open that day"
+        },
+        {
+          "id": "c",
+          "text": "The traveler bought the coat first"
+        },
+        {
+          "id": "d",
+          "text": "The chickens escaped on the road"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The story never shows a real sale. Each step of the daydream starts with the milk. When the milk is gone, a reader can see that every later step had nothing to stand on.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s8",
+        "s9"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last in the real events, not in the daydream?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The farmer plans to buy eggs"
+        },
+        {
+          "id": "b",
+          "text": "The farmer turns back toward home"
+        },
+        {
+          "id": "c",
+          "text": "The pail hits the road"
+        },
+        {
+          "id": "d",
+          "text": "A traveler offers a rag"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The daydream comes first, then the spill, then the traveler. The last real action is rinsing the pail and turning back home.",
+      "lookBackSentenceIds": [
+        "s13"
+      ],
+      "id": "q5"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

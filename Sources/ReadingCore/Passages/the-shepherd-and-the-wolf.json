@@ -1,0 +1,187 @@
+{
+  "id": "the-shepherd-and-the-wolf",
+  "title": "The Shepherd and the Wolf",
+  "kind": "fable",
+  "level": 2,
+  "order": 1,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A shepherd watched a flock of sheep on a green hill above a village."
+    },
+    {
+      "id": "s2",
+      "text": "The work was quiet, and the shepherd grew bored."
+    },
+    {
+      "id": "s3",
+      "text": "One afternoon the shepherd shouted, Wolf! Wolf! toward the houses."
+    },
+    {
+      "id": "s4",
+      "text": "Neighbors dropped their tools and ran up the hill to help."
+    },
+    {
+      "id": "s5",
+      "text": "There was no wolf. The sheep were grazing, and the shepherd was laughing."
+    },
+    {
+      "id": "s6",
+      "text": "The neighbors frowned and walked back down the path."
+    },
+    {
+      "id": "s7",
+      "text": "The next day the shepherd tried the joke again, and again the neighbors came."
+    },
+    {
+      "id": "s8",
+      "text": "They were angry this time, and they warned the shepherd not to call unless a wolf was real."
+    },
+    {
+      "id": "s9",
+      "text": "That evening a real wolf crept out of the trees."
+    },
+    {
+      "id": "s10",
+      "text": "The shepherd shouted for help, louder than before."
+    },
+    {
+      "id": "s11",
+      "text": "Down in the village, people heard the cry and shook their heads."
+    },
+    {
+      "id": "s12",
+      "text": "It is only another joke, they said, and nobody climbed the hill."
+    },
+    {
+      "id": "s13",
+      "text": "The wolf rushed the flock and scattered the sheep across the slope."
+    },
+    {
+      "id": "s14",
+      "text": "The shepherd gathered them again much later, with shaking hands."
+    },
+    {
+      "id": "s15",
+      "text": "A joke that is a lie can make the truth hard to believe."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A false alarm that makes a real alarm hard to believe"
+        },
+        {
+          "id": "b",
+          "text": "A wolf who learns to guard a flock"
+        },
+        {
+          "id": "c",
+          "text": "Neighbors who move the village uphill"
+        },
+        {
+          "id": "d",
+          "text": "A shepherd who builds a taller fence"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The shepherd calls for help when there is no wolf. Later a real wolf comes, and nobody believes the call. That loss of trust is the main idea.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s12",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What do the neighbors do the first time they hear the shout?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They lock every door in the village"
+        },
+        {
+          "id": "b",
+          "text": "They run up the hill to help"
+        },
+        {
+          "id": "c",
+          "text": "They laugh and stay where they are"
+        },
+        {
+          "id": "d",
+          "text": "They send the wolf back to the trees"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The first time, the neighbors drop their tools and run up the hill. They only refuse to come after the joke has been repeated.",
+      "lookBackSentenceIds": [
+        "s4"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "How does the shepherd most likely feel while gathering the sheep?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Proud that the joke worked again"
+        },
+        {
+          "id": "b",
+          "text": "Sleepy after a quiet afternoon"
+        },
+        {
+          "id": "c",
+          "text": "Shaken, and sorry the joke was told"
+        },
+        {
+          "id": "d",
+          "text": "Sure the neighbors are still laughing"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The story does not say the word sorry. Shaking hands, a scattered flock, and neighbors who would not come are clues that the shepherd feels upset, not proud.",
+      "lookBackSentenceIds": [
+        "s13",
+        "s14"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The shepherd shouts the first false alarm"
+        },
+        {
+          "id": "b",
+          "text": "Neighbors warn that the joke must stop"
+        },
+        {
+          "id": "c",
+          "text": "A real wolf comes out of the trees"
+        },
+        {
+          "id": "d",
+          "text": "The shepherd gathers the sheep again"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The false alarms come first, then the warning, then the real wolf. The last action is the shepherd gathering the sheep much later.",
+      "lookBackSentenceIds": [
+        "s14"
+      ],
+      "id": "q4"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

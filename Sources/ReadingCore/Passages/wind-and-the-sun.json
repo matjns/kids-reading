@@ -1,0 +1,134 @@
+{
+  "id": "wind-and-the-sun",
+  "title": "The Wind and the Sun",
+  "kind": "fable",
+  "level": 1,
+  "order": 5,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The wind and the sun argued about who was stronger."
+    },
+    {
+      "id": "s2",
+      "text": "They saw a traveler walking the road in a thick cloak."
+    },
+    {
+      "id": "s3",
+      "text": "Whoever can make that traveler take off the cloak is stronger, said the sun."
+    },
+    {
+      "id": "s4",
+      "text": "The wind went first and blew with all his might."
+    },
+    {
+      "id": "s5",
+      "text": "Dust flew, branches bent, and the traveler grabbed the cloak tighter."
+    },
+    {
+      "id": "s6",
+      "text": "Then the sun took a turn and shone, gentle and warm."
+    },
+    {
+      "id": "s7",
+      "text": "The road heated up, and the traveler wiped his brow."
+    },
+    {
+      "id": "s8",
+      "text": "He loosened the cloak, then took it off and folded it over his arm."
+    },
+    {
+      "id": "s9",
+      "text": "The sun had won without a shout. Warmth had worked better than force."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gentleness working better than force"
+        },
+        {
+          "id": "b",
+          "text": "A traveler who sews a brand-new cloak"
+        },
+        {
+          "id": "c",
+          "text": "A storm that knocks down every tree"
+        },
+        {
+          "id": "d",
+          "text": "The sun and wind taking a long nap"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The wind blows hard and the traveler holds on tighter. The warm sun gets the cloak removed. The story is about a gentler way winning.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s8",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What does the traveler do when the wind blows hard?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He folds the cloak over his arm"
+        },
+        {
+          "id": "b",
+          "text": "He holds the cloak tighter"
+        },
+        {
+          "id": "c",
+          "text": "He asks the sun for a race"
+        },
+        {
+          "id": "d",
+          "text": "He drops the cloak in the dust"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The story says that when the wind blew, the traveler grabbed the cloak and held it tighter. Taking it off happens later, in the sunshine.",
+      "lookBackSentenceIds": [
+        "s5"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wind and the sun start to argue"
+        },
+        {
+          "id": "b",
+          "text": "The wind blows with all his might"
+        },
+        {
+          "id": "c",
+          "text": "The traveler folds the cloak over his arm"
+        },
+        {
+          "id": "d",
+          "text": "The sun begins to shine warmly"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The argument comes first, then the wind, then the sunshine. The last action is the traveler removing the cloak and folding it.",
+      "lookBackSentenceIds": [
+        "s8"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

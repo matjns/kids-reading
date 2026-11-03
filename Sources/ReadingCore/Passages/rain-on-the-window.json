@@ -1,0 +1,135 @@
+{
+  "id": "rain-on-the-window",
+  "title": "Rain on the Window",
+  "kind": "poem",
+  "level": 1,
+  "order": 15,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Tap, tap, tap on the glass,"
+    },
+    {
+      "id": "s2",
+      "text": "the rain is telling a quiet story."
+    },
+    {
+      "id": "s3",
+      "text": "It draws long silver lines"
+    },
+    {
+      "id": "s4",
+      "text": "and hides the red swing."
+    },
+    {
+      "id": "s5",
+      "text": "Inside, a cup of cocoa waits"
+    },
+    {
+      "id": "s6",
+      "text": "on a table by the window."
+    },
+    {
+      "id": "s7",
+      "text": "The room smells like warm milk."
+    },
+    {
+      "id": "s8",
+      "text": "When the clouds are finally empty,"
+    },
+    {
+      "id": "s9",
+      "text": "the swing will shine in the sun again."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this poem mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A red swing that learns to fly"
+        },
+        {
+          "id": "b",
+          "text": "A cup that runs away from the table"
+        },
+        {
+          "id": "c",
+          "text": "A rainy moment seen from a warm room"
+        },
+        {
+          "id": "d",
+          "text": "A storm that lasts for a whole year"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The poem moves from rain on the glass to cocoa inside, then to the swing shining later. A cozy rainy moment is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s5",
+        "s7"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The silver lines on the glass are most likely what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cracks in a wooden floor"
+        },
+        {
+          "id": "b",
+          "text": "Stripes on a wool coat"
+        },
+        {
+          "id": "c",
+          "text": "Roads drawn on a map"
+        },
+        {
+          "id": "d",
+          "text": "Streaks of rain"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The poem says the rain draws long silver lines and hides the swing. In that context, the lines are rain running down the window.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "How does the room feel in this poem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Warm and safe while rain falls outside"
+        },
+        {
+          "id": "b",
+          "text": "Cold, empty, and full of snow"
+        },
+        {
+          "id": "c",
+          "text": "Loud, crowded, and in a hurry"
+        },
+        {
+          "id": "d",
+          "text": "Dark, with no window at all"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The poem does not say the word cozy. Cocoa, warm milk, and being inside while rain taps the glass are clues that the room feels safe and warm.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s7"
+      ],
+      "id": "q3"
+    }
+  ]
+}

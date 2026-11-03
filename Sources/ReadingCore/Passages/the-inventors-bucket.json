@@ -1,0 +1,217 @@
+{
+  "id": "the-inventors-bucket",
+  "title": "The Inventor's Bucket",
+  "kind": "fiction",
+  "level": 3,
+  "order": 11,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Every morning the inventor carried water from a stone well to a row of herb pots."
+    },
+    {
+      "id": "s2",
+      "text": "The bucket had no cover, and water jumped over the rim with every step."
+    },
+    {
+      "id": "s3",
+      "text": "By the time the inventor reached the pots, a dark wet trail showed how much had been lost."
+    },
+    {
+      "id": "s4",
+      "text": "She marked the water line with chalk before one trip and again at the end."
+    },
+    {
+      "id": "s5",
+      "text": "The second mark was much lower. The problem could be measured, not merely grumbled about."
+    },
+    {
+      "id": "s6",
+      "text": "First she tried a wooden cover that sat loosely on top."
+    },
+    {
+      "id": "s7",
+      "text": "The cover slid off on the stairs and made the spill even worse."
+    },
+    {
+      "id": "s8",
+      "text": "Next she tied the cover down with string. The string held, but it was slow to untie at every pot."
+    },
+    {
+      "id": "s9",
+      "text": "The inventor watched her own hands and noticed that speed mattered as much as a tight cover."
+    },
+    {
+      "id": "s10",
+      "text": "She bent a small metal clasp that could snap shut and snap open with a press."
+    },
+    {
+      "id": "s11",
+      "text": "She tested the bucket ten times, chalk marks and all, and wrote each result in a notebook."
+    },
+    {
+      "id": "s12",
+      "text": "Less water was lost, and the cover came off quickly when she needed to pour."
+    },
+    {
+      "id": "s13",
+      "text": "One morning the clasp bent too far and would not catch. She shaped it again and tested once more."
+    },
+    {
+      "id": "s14",
+      "text": "The useful bucket was not one lucky thought."
+    },
+    {
+      "id": "s15",
+      "text": "It was a measured problem, a cover that failed, and a fastener that survived being tested."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Finding a new well that never spills"
+        },
+        {
+          "id": "b",
+          "text": "Growing herbs without any water"
+        },
+        {
+          "id": "c",
+          "text": "Improving a bucket by measuring, trying, and testing"
+        },
+        {
+          "id": "d",
+          "text": "Throwing away notebooks after one idea"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The inventor measures the spill, tries a loose cover, tries string, then a clasp, and keeps testing. Improvement through tests is the main idea.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s11",
+        "s15"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What fails on the first try?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The stone well runs dry"
+        },
+        {
+          "id": "b",
+          "text": "The chalk will not write"
+        },
+        {
+          "id": "c",
+          "text": "The metal clasp snaps open too easily"
+        },
+        {
+          "id": "d",
+          "text": "A loose wooden cover slides off"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The first fix is a wooden cover that sits loosely and slides off on the stairs. The clasp comes later and works better.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "From the story, a clasp is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fastener that can snap shut and snap open"
+        },
+        {
+          "id": "b",
+          "text": "A chalk line on a bucket"
+        },
+        {
+          "id": "c",
+          "text": "A trail of spilled water"
+        },
+        {
+          "id": "d",
+          "text": "A notebook full of herbs"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The inventor bends a small metal clasp that can snap shut and snap open. Those actions show that a clasp is a fastener.",
+      "lookBackSentenceIds": [
+        "s10"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does she mark the water line with chalk?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "So the herbs can read the bucket"
+        },
+        {
+          "id": "b",
+          "text": "So she can see how much water is lost, not just feel annoyed"
+        },
+        {
+          "id": "c",
+          "text": "So the string will stick to the wood"
+        },
+        {
+          "id": "d",
+          "text": "So the well will refill by itself"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The story says the second mark was lower and that the problem could be measured. The chalk is a way to compare the start and the end of a trip.",
+      "lookBackSentenceIds": [
+        "s4",
+        "s5"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What is the order of the tries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Clasp, then string, then a loose cover"
+        },
+        {
+          "id": "b",
+          "text": "String, then chalk, then no test at all"
+        },
+        {
+          "id": "c",
+          "text": "Loose cover, then string, then a metal clasp"
+        },
+        {
+          "id": "d",
+          "text": "Notebook, then well, then a broken stair"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "She tries the loose wooden cover first, then string, and then the clasp that snaps. The tests continue after that order.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s8",
+        "s10"
+      ],
+      "id": "q5"
+    }
+  ]
+}

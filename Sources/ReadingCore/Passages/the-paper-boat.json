@@ -1,0 +1,134 @@
+{
+  "id": "the-paper-boat",
+  "title": "The Paper Boat",
+  "kind": "fiction",
+  "level": 1,
+  "order": 12,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "On a rainy afternoon, careful hands folded a sheet of white paper."
+    },
+    {
+      "id": "s2",
+      "text": "Fold, flip, fold, and a boat appeared, with a pointed front and a flat bottom."
+    },
+    {
+      "id": "s3",
+      "text": "Outside, the gutter had turned into a fast little river."
+    },
+    {
+      "id": "s4",
+      "text": "The boat went in and raced toward the corner."
+    },
+    {
+      "id": "s5",
+      "text": "It bumped a yellow leaf, spun once, and kept going."
+    },
+    {
+      "id": "s6",
+      "text": "At the drain it slowed, tipped, and slipped out of sight."
+    },
+    {
+      "id": "s7",
+      "text": "The maker waited, then laughed and went back for another sheet."
+    },
+    {
+      "id": "s8",
+      "text": "A paper boat usually lasts for one short trip."
+    },
+    {
+      "id": "s9",
+      "text": "That is why the next boat can be a new shape, and the race can start again."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A yellow leaf that learns to fold paper"
+        },
+        {
+          "id": "b",
+          "text": "A paper boat's one short race down the gutter"
+        },
+        {
+          "id": "c",
+          "text": "A drain that is closed for the winter"
+        },
+        {
+          "id": "d",
+          "text": "A boat made of wood for the ocean"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The story follows one paper boat from the folds to the drain. The short trip, not a long sea journey, is the main idea.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s4",
+        "s6"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What does the boat bump?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A red mitten"
+        },
+        {
+          "id": "b",
+          "text": "A glass jar"
+        },
+        {
+          "id": "c",
+          "text": "A yellow leaf"
+        },
+        {
+          "id": "d",
+          "text": "A wooden dock"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "On the way to the corner, the boat bumps a yellow leaf, spins once, and keeps going. That is the object in its path.",
+      "lookBackSentenceIds": [
+        "s5"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The paper is folded into a boat"
+        },
+        {
+          "id": "b",
+          "text": "The boat bumps a yellow leaf"
+        },
+        {
+          "id": "c",
+          "text": "The boat slips into the drain"
+        },
+        {
+          "id": "d",
+          "text": "The maker goes back for another sheet"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Folding comes first, then the race and the drain. After watching the boat disappear, the maker goes back for another sheet.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7"
+      ],
+      "id": "q3"
+    }
+  ]
+}

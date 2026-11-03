@@ -1,0 +1,180 @@
+{
+  "id": "the-lighthouse-in-the-fog",
+  "title": "The Lighthouse in the Fog",
+  "kind": "fiction",
+  "level": 2,
+  "order": 11,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The lighthouse stood on a black rock where the bay met the open water."
+    },
+    {
+      "id": "s2",
+      "text": "Before dusk, the keeper climbed the spiral stairs and wiped the great glass lens."
+    },
+    {
+      "id": "s3",
+      "text": "Salt spray had left a cloudy film, and a dirty lens would waste the light."
+    },
+    {
+      "id": "s4",
+      "text": "The keeper checked the lamp, the spare bulb, and the horn that calls through fog."
+    },
+    {
+      "id": "s5",
+      "text": "By evening a gray wall of fog had slid in from the sea."
+    },
+    {
+      "id": "s6",
+      "text": "Boats could no longer trust their eyes, so the keeper started the horn."
+    },
+    {
+      "id": "s7",
+      "text": "A deep note rolled across the water, then a pause, then the same note again."
+    },
+    {
+      "id": "s8",
+      "text": "Out in the bay, a fishing boat slowed and turned a little wider of the rock."
+    },
+    {
+      "id": "s9",
+      "text": "The keeper watched the beam sweep in a steady circle, the way it did every clear or foggy night."
+    },
+    {
+      "id": "s10",
+      "text": "The work was not a race. It was the same careful list, done on time."
+    },
+    {
+      "id": "s11",
+      "text": "When the fog thinned near dawn, the horn went quiet and the stairs were still damp."
+    },
+    {
+      "id": "s12",
+      "text": "The keeper wrote the night in the log: fog, horn working, no ships too close."
+    },
+    {
+      "id": "s13",
+      "text": "A bright lens and a working horn had given the boats a way to stay off the rocks."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A keeper's steady work that helps boats avoid the rocks"
+        },
+        {
+          "id": "b",
+          "text": "A fishing boat that climbs the lighthouse stairs"
+        },
+        {
+          "id": "c",
+          "text": "A lamp that only works on sunny days"
+        },
+        {
+          "id": "d",
+          "text": "A logbook that writes itself at dawn"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The keeper cleans the lens, checks the horn, and keeps the light turning through the fog. Protecting boats is the main idea.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s10",
+        "s13"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this story, the lens is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rope that ties up a boat"
+        },
+        {
+          "id": "b",
+          "text": "The glass that shapes and sends the light"
+        },
+        {
+          "id": "c",
+          "text": "The ink used in the log"
+        },
+        {
+          "id": "d",
+          "text": "The fog sitting on the bay"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The keeper wipes the great glass lens because a dirty one would waste the light. In this story the lens is the glass that sends the beam.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What does the keeper write in the log?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The spare bulb was missing"
+        },
+        {
+          "id": "b",
+          "text": "The stairs were painted blue"
+        },
+        {
+          "id": "c",
+          "text": "Fog, horn working, no ships too close"
+        },
+        {
+          "id": "d",
+          "text": "A ship hit the black rock"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Near dawn the keeper writes: fog, horn working, no ships too close. That is the exact note in the log.",
+      "lookBackSentenceIds": [
+        "s12"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does the fishing boat most likely turn wider of the rock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The keeper waves a flag the boat can see clearly"
+        },
+        {
+          "id": "b",
+          "text": "The fog lifts the boat out of the water"
+        },
+        {
+          "id": "c",
+          "text": "The log tells the boat where to turn"
+        },
+        {
+          "id": "d",
+          "text": "It hears the horn and uses the sound to stay away"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The story does not quote the people on the boat. The horn starts, a deep note rolls out, and then the boat slows and turns wider. The sound is the clue.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "id": "q4"
+    }
+  ]
+}

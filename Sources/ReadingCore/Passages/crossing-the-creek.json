@@ -1,0 +1,174 @@
+{
+  "id": "crossing-the-creek",
+  "title": "Crossing the Creek",
+  "kind": "fiction",
+  "level": 2,
+  "order": 10,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Two raccoons reached a creek that was higher than it had been in the morning."
+    },
+    {
+      "id": "s2",
+      "text": "Flat stones made a broken line from one bank to the other."
+    },
+    {
+      "id": "s3",
+      "text": "The first raccoon hurried, chose a shiny stone, and slipped."
+    },
+    {
+      "id": "s4",
+      "text": "The slip was not a bad fall. It was a cold splash and a surprised squeak."
+    },
+    {
+      "id": "s5",
+      "text": "The raccoon climbed back onto the bank, shook, and sat down to look again."
+    },
+    {
+      "id": "s6",
+      "text": "This time the pair tested each stone with one paw before trusting it."
+    },
+    {
+      "id": "s7",
+      "text": "If a stone wobbled, they skipped it and chose the next one."
+    },
+    {
+      "id": "s8",
+      "text": "They also waited while a push of water went by, instead of fighting the current."
+    },
+    {
+      "id": "s9",
+      "text": "Halfway across, a branch rushed past and bumped the line of stones, but the stones held."
+    },
+    {
+      "id": "s10",
+      "text": "The raccoons kept the same careful pattern and stepped onto the far mud."
+    },
+    {
+      "id": "s11",
+      "text": "The first try had been fast. The second try was slower and finished the crossing."
+    },
+    {
+      "id": "s12",
+      "text": "Speed had looked bold, but testing the stones had actually worked."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A careful second try that gets the raccoons across"
+        },
+        {
+          "id": "b",
+          "text": "A branch that builds a wooden bridge"
+        },
+        {
+          "id": "c",
+          "text": "A creek that dries up before noon"
+        },
+        {
+          "id": "d",
+          "text": "A shiny stone that can never get wet"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The fast first try ends in a splash. Testing each stone gets them to the far bank. Careful trying is the main idea.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s10",
+        "s12"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They test every stone with a paw"
+        },
+        {
+          "id": "b",
+          "text": "One raccoon hurries, picks a shiny stone, and slips"
+        },
+        {
+          "id": "c",
+          "text": "A branch bumps the line of stones"
+        },
+        {
+          "id": "d",
+          "text": "They step onto the far mud"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The hurried slip is the first try. Testing stones, the passing branch, and the far bank all happen after they start again.",
+      "lookBackSentenceIds": [
+        "s3"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What do the raccoons do if a stone wobbles?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They sit on it until it stops"
+        },
+        {
+          "id": "b",
+          "text": "They throw it into the trees"
+        },
+        {
+          "id": "c",
+          "text": "They skip it and choose the next stone"
+        },
+        {
+          "id": "d",
+          "text": "They call for a larger animal"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The story says that if a stone wobbled, they skipped it and chose the next one. That is a specific step in the second try.",
+      "lookBackSentenceIds": [
+        "s7"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "What can a reader figure out about the shiny stone?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shiny stones are always the safest choice"
+        },
+        {
+          "id": "b",
+          "text": "The stone slipped because it was afraid"
+        },
+        {
+          "id": "c",
+          "text": "The creek only wets dull stones"
+        },
+        {
+          "id": "d",
+          "text": "Looking shiny did not mean it was steady"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The raccoon chooses the stone because it looks shiny, then slips. The story never says shiny means safe. The splash is the clue.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s4"
+      ],
+      "id": "q4"
+    }
+  ]
+}

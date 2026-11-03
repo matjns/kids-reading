@@ -1,0 +1,175 @@
+{
+  "id": "from-sap-to-syrup",
+  "title": "From Sap to Syrup",
+  "kind": "nonfiction",
+  "level": 2,
+  "order": 7,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "In late winter and early spring, sap rises inside sugar maple trees."
+    },
+    {
+      "id": "s2",
+      "text": "Sap is the tree's watery juice. It is mostly water, with a little sugar mixed in."
+    },
+    {
+      "id": "s3",
+      "text": "On warm days after freezing nights, the sap can drip from a small tap in the trunk."
+    },
+    {
+      "id": "s4",
+      "text": "People collect the drips in buckets or in tubes that run downhill to a tank."
+    },
+    {
+      "id": "s5",
+      "text": "The sap does not taste like syrup yet. It is thin and only gently sweet."
+    },
+    {
+      "id": "s6",
+      "text": "In a sugarhouse, the sap is boiled in wide, shallow pans."
+    },
+    {
+      "id": "s7",
+      "text": "Water turns to steam and floats away, and the sugar stays behind."
+    },
+    {
+      "id": "s8",
+      "text": "As the liquid gets thicker, it becomes maple syrup."
+    },
+    {
+      "id": "s9",
+      "text": "It takes about 40 gallons of sap to make about 1 gallon of syrup."
+    },
+    {
+      "id": "s10",
+      "text": "That is why the boiling takes a long time and why syrup is more precious than the fresh sap."
+    },
+    {
+      "id": "s11",
+      "text": "The color can be golden or deep amber, depending on when the sap was collected."
+    },
+    {
+      "id": "s12",
+      "text": "Real maple syrup comes from this tree sap, not from stirring sugar into water at the table."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How maple sap is collected and boiled into syrup"
+        },
+        {
+          "id": "b",
+          "text": "How to paint a tree golden or amber"
+        },
+        {
+          "id": "c",
+          "text": "Why buckets are made of sugar"
+        },
+        {
+          "id": "d",
+          "text": "How winter nights freeze a whole river"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage starts with sap rising in maple trees and ends with thick syrup after boiling. The whole process is the main idea.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s7",
+        "s8"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "About how much sap makes one gallon of syrup?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 2 cups"
+        },
+        {
+          "id": "b",
+          "text": "About 40 gallons"
+        },
+        {
+          "id": "c",
+          "text": "About 1 gallon"
+        },
+        {
+          "id": "d",
+          "text": "About 400 buckets of bark"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage gives the comparison directly: about 40 gallons of sap make about 1 gallon of syrup.",
+      "lookBackSentenceIds": [
+        "s9"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, sap is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Steam rising from a pan"
+        },
+        {
+          "id": "b",
+          "text": "A metal tap with no use"
+        },
+        {
+          "id": "c",
+          "text": "The tree's watery juice"
+        },
+        {
+          "id": "d",
+          "text": "Sugar stirred in at the table"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says sap is the tree's watery juice, mostly water with a little sugar. That is the meaning to use.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why does boiling make the sap taste stronger and thicker?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The pans add forty new kinds of sugar"
+        },
+        {
+          "id": "b",
+          "text": "Freezing nights stir the pans by themselves"
+        },
+        {
+          "id": "c",
+          "text": "The color amber is mixed in with a spoon"
+        },
+        {
+          "id": "d",
+          "text": "Water leaves as steam, so the sugar that stays is more concentrated"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage says water turns to steam and the sugar stays. From that clue, a reader can figure out that what remains is thicker and more strongly sweet.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "id": "q4"
+    }
+  ]
+}

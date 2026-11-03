@@ -1,0 +1,174 @@
+{
+  "id": "belling-the-cat",
+  "title": "Belling the Cat",
+  "kind": "fable",
+  "level": 2,
+  "order": 4,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The mice in an old house called a meeting inside the wall."
+    },
+    {
+      "id": "s2",
+      "text": "A cat had been stalking the kitchen, and every errand had become dangerous."
+    },
+    {
+      "id": "s3",
+      "text": "One mouse stood up and said they should tie a bell to the cat's collar."
+    },
+    {
+      "id": "s4",
+      "text": "Then we will hear the cat coming and slip away in time, the mouse added."
+    },
+    {
+      "id": "s5",
+      "text": "The other mice cheered. The plan sounded clever and simple."
+    },
+    {
+      "id": "s6",
+      "text": "An old mouse, who had not cheered, waited until the noise faded."
+    },
+    {
+      "id": "s7",
+      "text": "The bell is a fine idea, said the old mouse. Who is going to put it on the cat?"
+    },
+    {
+      "id": "s8",
+      "text": "Silence filled the wall. Nobody wanted that job."
+    },
+    {
+      "id": "s9",
+      "text": "They looked at the floor, at their paws, and at the crack that led toward the kitchen."
+    },
+    {
+      "id": "s10",
+      "text": "A plan can sound perfect until someone has to carry out the dangerous part."
+    },
+    {
+      "id": "s11",
+      "text": "The mice still needed a safer habit, so they agreed to post a lookout by the crack."
+    },
+    {
+      "id": "s12",
+      "text": "It was a smaller idea, but it was an idea someone could actually do."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A clever plan that nobody can safely carry out"
+        },
+        {
+          "id": "b",
+          "text": "A cat who asks to wear a new collar"
+        },
+        {
+          "id": "c",
+          "text": "A kitchen that is rebuilt for mice"
+        },
+        {
+          "id": "d",
+          "text": "An old mouse who loves loud bells"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The bell sounds clever until the old mouse asks who will put it on the cat. Nobody can do the dangerous part. That is the main idea.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s8",
+        "s10"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What question does the old mouse ask?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who will cook supper for the cat?"
+        },
+        {
+          "id": "b",
+          "text": "Who is going to put the bell on the cat?"
+        },
+        {
+          "id": "c",
+          "text": "Where did the mice buy the bell?"
+        },
+        {
+          "id": "d",
+          "text": "When will the wall be painted?"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "After the cheering, the old mouse asks who is going to put the bell on the cat. The silence that follows is the answer.",
+      "lookBackSentenceIds": [
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The cat had been stalking the kitchen. What does stalking mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Baking bread for a meeting"
+        },
+        {
+          "id": "b",
+          "text": "Ringing a bell as a warning"
+        },
+        {
+          "id": "c",
+          "text": "Following quietly in order to catch"
+        },
+        {
+          "id": "d",
+          "text": "Sleeping in a sunny window"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Stalking means following quietly in order to catch something. The cat makes every mouse errand dangerous, which fits that meaning.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What do the mice decide last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To cheer for the bell plan"
+        },
+        {
+          "id": "b",
+          "text": "To call a meeting in the wall"
+        },
+        {
+          "id": "c",
+          "text": "To ask who will bell the cat"
+        },
+        {
+          "id": "d",
+          "text": "To post a lookout by the crack"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The meeting and the bell idea come first. After nobody will do that job, the last decision is to post a lookout by the crack.",
+      "lookBackSentenceIds": [
+        "s11"
+      ],
+      "id": "q4"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original, and the lookout idea was added for this version."
+}

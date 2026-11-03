@@ -1,0 +1,177 @@
+{
+  "id": "what-is-a-volcano",
+  "title": "What Is a Volcano?",
+  "kind": "nonfiction",
+  "level": 2,
+  "order": 8,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A volcano is an opening in Earth's crust where hot rock from underground can reach the surface."
+    },
+    {
+      "id": "s2",
+      "text": "Melted rock under the ground is called magma."
+    },
+    {
+      "id": "s3",
+      "text": "When magma comes out onto the surface, it is called lava."
+    },
+    {
+      "id": "s4",
+      "text": "Some volcanoes erupt with ash, gas, and a loud blast."
+    },
+    {
+      "id": "s5",
+      "text": "Others leak lava more quietly and build wide, gentle slopes over many years."
+    },
+    {
+      "id": "s6",
+      "text": "Not every mountain is a volcano. A volcano is built by material that erupted."
+    },
+    {
+      "id": "s7",
+      "text": "Rock that cools from lava can look dark and full of tiny holes left by gas bubbles."
+    },
+    {
+      "id": "s8",
+      "text": "A volcano that has not erupted for a long time may be called dormant, which means sleeping, not gone."
+    },
+    {
+      "id": "s9",
+      "text": "A volcano that scientists do not expect to erupt again may be called extinct."
+    },
+    {
+      "id": "s10",
+      "text": "People watch volcanoes with tools that measure shaking, gases, and changes in the ground."
+    },
+    {
+      "id": "s11",
+      "text": "Those clues can sometimes warn a town before an eruption."
+    },
+    {
+      "id": "s12",
+      "text": "Lava is hot enough to burn trees and buildings, so the safe choice is to leave when experts say to go."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What volcanoes are, and how people watch them"
+        },
+        {
+          "id": "b",
+          "text": "How to cook food over any mountain"
+        },
+        {
+          "id": "c",
+          "text": "Why every hill is ready to erupt"
+        },
+        {
+          "id": "d",
+          "text": "How gas bubbles are used as toys"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage defines magma and lava, contrasts quiet and explosive eruptions, and explains warning tools. Together, that is the main idea.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s2",
+        "s10"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "A dormant volcano is one that is what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Erupting loudly at this very moment"
+        },
+        {
+          "id": "b",
+          "text": "Sleeping, not erupting for a long time, but not necessarily gone"
+        },
+        {
+          "id": "c",
+          "text": "Made only of ice and snow"
+        },
+        {
+          "id": "d",
+          "text": "Impossible to see on a map"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says dormant means sleeping, not gone. It is different from extinct, which means scientists do not expect another eruption.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What is melted rock called while it is still underground?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lava"
+        },
+        {
+          "id": "b",
+          "text": "Ash"
+        },
+        {
+          "id": "c",
+          "text": "Magma"
+        },
+        {
+          "id": "d",
+          "text": "Crust"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says melted rock under the ground is magma. It is called lava only after it reaches the surface.",
+      "lookBackSentenceIds": [
+        "s2",
+        "s3"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "Why might a quiet volcano still need to be watched?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every quiet mountain erupts every day"
+        },
+        {
+          "id": "b",
+          "text": "Ash always falls from a blue sky"
+        },
+        {
+          "id": "c",
+          "text": "Experts only watch volcanoes that are extinct"
+        },
+        {
+          "id": "d",
+          "text": "Dormant means sleeping, not gone, and tools can spot warning clues"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage separates sleeping from gone, and it says shaking, gases, and ground changes can warn a town. A quiet volcano can still deserve watching.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s10",
+        "s11"
+      ],
+      "id": "q4"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "owl-at-dusk",
+  "title": "Owl at Dusk",
+  "kind": "poem",
+  "level": 2,
+  "order": 14,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The field turns blue at the edge of day."
+    },
+    {
+      "id": "s2",
+      "text": "A round moon lifts out of the hay."
+    },
+    {
+      "id": "s3",
+      "text": "An owl leaves the barn on quiet wings"
+    },
+    {
+      "id": "s4",
+      "text": "and crosses the fence without a sound."
+    },
+    {
+      "id": "s5",
+      "text": "Grasses bow in the evening wind,"
+    },
+    {
+      "id": "s6",
+      "text": "and the owl does not hurry."
+    },
+    {
+      "id": "s7",
+      "text": "It perches on a silver post"
+    },
+    {
+      "id": "s8",
+      "text": "and turns its face like a small lantern."
+    },
+    {
+      "id": "s9",
+      "text": "Stars prick the dark, one and then many."
+    },
+    {
+      "id": "s10",
+      "text": "The owl blinks, patient as the hill."
+    },
+    {
+      "id": "s11",
+      "text": "Night does not slam. It arrives softly,"
+    },
+    {
+      "id": "s12",
+      "text": "and the quiet wings belong to it."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this poem mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A quiet owl and a night that arrives softly"
+        },
+        {
+          "id": "b",
+          "text": "A barn that flies over the hay"
+        },
+        {
+          "id": "c",
+          "text": "A lantern that puts out every star"
+        },
+        {
+          "id": "d",
+          "text": "A fence that runs away from the field"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The poem follows the owl from the barn to a post while the sky darkens. Soft, unhurried night is the main idea.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s11",
+        "s12"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "The owl perches on a post. What does perches mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Digs a hole in the hay"
+        },
+        {
+          "id": "b",
+          "text": "Sits or rests on something"
+        },
+        {
+          "id": "c",
+          "text": "Flies in a noisy circle"
+        },
+        {
+          "id": "d",
+          "text": "Closes the barn door"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Perches means sits or rests on something, often up high. The owl perches on a silver post and stays there to blink.",
+      "lookBackSentenceIds": [
+        "s7"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "How does the night feel in this poem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Loud, sudden, and angry"
+        },
+        {
+          "id": "b",
+          "text": "Bright as the middle of the day"
+        },
+        {
+          "id": "c",
+          "text": "Soft and unhurried"
+        },
+        {
+          "id": "d",
+          "text": "Too windy for any bird to fly"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The poem never uses the word calm as a label. Clues such as quiet wings, does not hurry, patient, and arrives softly let a reader figure out the feeling.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s10",
+        "s11"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "What happens first in the poem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The owl perches on a post"
+        },
+        {
+          "id": "b",
+          "text": "Stars prick the dark"
+        },
+        {
+          "id": "c",
+          "text": "The moon lifts out of the hay"
+        },
+        {
+          "id": "d",
+          "text": "The field turns blue"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The first line is the blue field. The moon, the perch, and the stars come after that opening.",
+      "lookBackSentenceIds": [
+        "s1"
+      ],
+      "id": "q4"
+    }
+  ]
+}

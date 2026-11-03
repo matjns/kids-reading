@@ -1,0 +1,219 @@
+{
+  "id": "rain-on-one-side",
+  "title": "Rain on One Side of the Mountain",
+  "kind": "nonfiction",
+  "level": 3,
+  "order": 4,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "When wind carries moist air toward a mountain, the air has to rise."
+    },
+    {
+      "id": "s2",
+      "text": "Rising air cools. Cool air cannot hold as much invisible water vapor as warm air can."
+    },
+    {
+      "id": "s3",
+      "text": "Tiny droplets form, clouds grow, and rain or snow falls on the side where the air is climbing."
+    },
+    {
+      "id": "s4",
+      "text": "That wet side is called the windward side, because it faces the oncoming wind."
+    },
+    {
+      "id": "s5",
+      "text": "After the air crosses the peak, it sinks down the other side."
+    },
+    {
+      "id": "s6",
+      "text": "Sinking air warms, and warmer air can hold more vapor, so the clouds often thin out."
+    },
+    {
+      "id": "s7",
+      "text": "The side sheltered from the wind is called the leeward side."
+    },
+    {
+      "id": "s8",
+      "text": "It sits in a rain shadow, a drier region on the far side of a mountain."
+    },
+    {
+      "id": "s9",
+      "text": "The same storm can water a forest on one slope and leave the other slope brown."
+    },
+    {
+      "id": "s10",
+      "text": "A rain shadow does not mean the leeward side never gets rain. It usually gets less."
+    },
+    {
+      "id": "s11",
+      "text": "Oceans, seasons, and the height of the mountain all change how strong the shadow is."
+    },
+    {
+      "id": "s12",
+      "text": "A very tall mountain range can block a great deal of moisture."
+    },
+    {
+      "id": "s13",
+      "text": "People who farm or plan towns pay attention, because rivers, crops, and wildfire risk can differ on the two sides."
+    },
+    {
+      "id": "s14",
+      "text": "If you ride from a green slope into a dry valley in a single hour, a rain shadow may explain the change."
+    },
+    {
+      "id": "s15",
+      "text": "The mountain did not drink the water. It forced the air to drop much of that water on the way up."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How to move a mountain closer to the ocean"
+        },
+        {
+          "id": "b",
+          "text": "Why snow never falls on any slope"
+        },
+        {
+          "id": "c",
+          "text": "How valleys drink water through their roots"
+        },
+        {
+          "id": "d",
+          "text": "Why one side of a mountain is often wetter than the other"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The passage explains rising, cooling air on the windward side and drier air on the leeward side. That difference is the main idea.",
+      "lookBackSentenceIds": [
+        "s3",
+        "s7",
+        "s8"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "vocabulary",
+      "prompt": "In this passage, the leeward side is which side?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The side sheltered from the wind, often in the rain shadow"
+        },
+        {
+          "id": "b",
+          "text": "The side the wind hits first"
+        },
+        {
+          "id": "c",
+          "text": "The bottom of the ocean"
+        },
+        {
+          "id": "d",
+          "text": "The inside of a raindrop"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The passage says the leeward side is sheltered from the wind and sits in the drier rain shadow. The windward side is the one facing the wind.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s8"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What happens to air as it rises up the mountain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It always gets warmer"
+        },
+        {
+          "id": "b",
+          "text": "It cools"
+        },
+        {
+          "id": "c",
+          "text": "It turns into solid rock"
+        },
+        {
+          "id": "d",
+          "text": "It stops moving at the foot of the slope"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The passage says rising air cools, and cool air cannot hold as much water vapor. That cooling comes before the rain.",
+      "lookBackSentenceIds": [
+        "s2"
+      ],
+      "id": "q3"
+    },
+    {
+      "skill": "inference",
+      "prompt": "A town on the leeward side wants gardens that need a lot of rain. What should the town figure out?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The gardens will be soaked every day by the rain shadow"
+        },
+        {
+          "id": "b",
+          "text": "Windward and leeward receive exactly the same rain"
+        },
+        {
+          "id": "c",
+          "text": "Those gardens may need extra water because that side is usually drier"
+        },
+        {
+          "id": "d",
+          "text": "Mountains stop all wind, so no water can evaporate"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The passage says the leeward side usually gets less rain, not none. A garden that needs a lot of water would likely need help beyond the local rainfall.",
+      "lookBackSentenceIds": [
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "id": "q4"
+    },
+    {
+      "skill": "sequence",
+      "prompt": "Which order matches the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Air sinks first, then rises, then the ocean moves"
+        },
+        {
+          "id": "b",
+          "text": "Rain falls, then the air rises, then clouds disappear forever"
+        },
+        {
+          "id": "c",
+          "text": "The leeward side gets rain before the windward side"
+        },
+        {
+          "id": "d",
+          "text": "Air rises and cools, rain falls, then air sinks and warms"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "Moist air rises and cools first, which brings rain on the climbing side. After the peak, the air sinks and warms. That is the order the passage describes.",
+      "lookBackSentenceIds": [
+        "s1",
+        "s2",
+        "s5",
+        "s6"
+      ],
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "crow-and-the-pitcher",
+  "title": "The Crow and the Pitcher",
+  "kind": "fable",
+  "level": 1,
+  "order": 7,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A crow had flown a long way, and her throat was dry."
+    },
+    {
+      "id": "s2",
+      "text": "She found a pitcher in a garden, with a little water at the bottom."
+    },
+    {
+      "id": "s3",
+      "text": "She pushed her beak in, but the water was too low to reach."
+    },
+    {
+      "id": "s4",
+      "text": "She tipped the pitcher. It was heavy, and it would not fall."
+    },
+    {
+      "id": "s5",
+      "text": "Then she noticed a pile of small pebbles beside the path."
+    },
+    {
+      "id": "s6",
+      "text": "She dropped one pebble into the pitcher, then another, then another."
+    },
+    {
+      "id": "s7",
+      "text": "Each pebble took up space, and the water rose a little higher."
+    },
+    {
+      "id": "s8",
+      "text": "At last the water reached the top, and the crow drank."
+    },
+    {
+      "id": "s9",
+      "text": "She had not needed a bigger pitcher. She had needed a careful idea."
+    }
+  ],
+  "questions": [
+    {
+      "skill": "mainIdea",
+      "prompt": "What is this story mostly about?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A gardener who paints a new pitcher"
+        },
+        {
+          "id": "b",
+          "text": "A crow who finds a full lake nearby"
+        },
+        {
+          "id": "c",
+          "text": "A crow who solves a problem with a careful idea"
+        },
+        {
+          "id": "d",
+          "text": "Pebbles that roll away in the rain"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The crow cannot reach the water or tip the pitcher. Adding pebbles raises the water so she can drink. A careful idea is the big idea.",
+      "lookBackSentenceIds": [
+        "s6",
+        "s8",
+        "s9"
+      ],
+      "id": "q1"
+    },
+    {
+      "skill": "detail",
+      "prompt": "What does the crow drop into the pitcher?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seeds from the garden"
+        },
+        {
+          "id": "b",
+          "text": "Feathers from her wing"
+        },
+        {
+          "id": "c",
+          "text": "Leaves from the path"
+        },
+        {
+          "id": "d",
+          "text": "Small pebbles"
+        }
+      ],
+      "answerId": "d",
+      "explanation": "The story says she noticed pebbles and dropped them into the pitcher, one after another. That detail is what makes the water rise.",
+      "lookBackSentenceIds": [
+        "s5",
+        "s6"
+      ],
+      "id": "q2"
+    },
+    {
+      "skill": "inference",
+      "prompt": "What would most likely happen if she kept adding pebbles after the water reached the top?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water would spill over the top"
+        },
+        {
+          "id": "b",
+          "text": "The pitcher would become lighter than air"
+        },
+        {
+          "id": "c",
+          "text": "The pebbles would turn into seeds"
+        },
+        {
+          "id": "d",
+          "text": "The water would sink back down"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Each pebble takes up space and pushes the water higher. Once the water is already at the top, more pebbles would leave the water nowhere to go but over the side.",
+      "lookBackSentenceIds": [
+        "s7",
+        "s8"
+      ],
+      "id": "q3"
+    }
+  ],
+  "attribution": "A retelling of a public-domain fable by Aesop. The wording is original."
+}

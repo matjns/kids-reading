@@ -1,0 +1,45 @@
+name: macOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: macos-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref_type != 'tag' }}
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Test the stories and scoring
+        run: ./build.sh test
+
+      - name: Build the universal app
+        run: ./build.sh
+
+      - name: Publish a GitHub Release
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            TAG="$GITHUB_REF_NAME"
+          else
+            TAG="v$(tr -d '[:space:]' < VERSION)"
+          fi
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/ReadingQuest-mac-universal.zip README-mac.txt --clobber
+          else
+            gh release create "$TAG" dist/ReadingQuest-mac-universal.zip README-mac.txt \
+              --title "Reading Quest $TAG" \
+              --notes-file docs/RELEASE_NOTES.md
+          fi

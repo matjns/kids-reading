@@ -1,13 +1,13 @@
 import Foundation
 
 public enum QuestRules {
-    public static func isTrailUnlocked(_ level: Int, progress: Progress) -> Bool {
+    public static func isTrailUnlocked(_ level: Int, progress: ReadingProgress) -> Bool {
         level >= TrailGuide.minimumLevel
             && level <= TrailGuide.maximumLevel
             && level <= progress.highestUnlockedLevel
     }
 
-    public static func isPassageUnlocked(_ passage: Passage, catalog: Catalog, progress: Progress) -> Bool {
+    public static func isPassageUnlocked(_ passage: Passage, catalog: Catalog, progress: ReadingProgress) -> Bool {
         guard isTrailUnlocked(passage.level, progress: progress) else { return false }
         let peers = catalog.passages(at: passage.level)
         guard let index = peers.firstIndex(where: { $0.id == passage.id }) else { return false }
@@ -16,7 +16,7 @@ public enum QuestRules {
         return (progress.passageStats[prior.id]?.attempts ?? 0) > 0
     }
 
-    public static func recommendedPassage(catalog: Catalog, progress: Progress) -> Passage? {
+    public static func recommendedPassage(catalog: Catalog, progress: ReadingProgress) -> Passage? {
         let peers = catalog.passages(at: progress.recommendedLevel)
             .filter { isPassageUnlocked($0, catalog: catalog, progress: progress) }
         if let fresh = peers.first(where: { (progress.passageStats[$0.id]?.attempts ?? 0) == 0 }) {
@@ -33,7 +33,7 @@ public enum QuestRules {
             .first
     }
 
-    public static func completedCount(level: Int, catalog: Catalog, progress: Progress) -> Int {
+    public static func completedCount(level: Int, catalog: Catalog, progress: ReadingProgress) -> Int {
         catalog.passages(at: level).filter { (progress.passageStats[$0.id]?.attempts ?? 0) > 0 }.count
     }
 
@@ -41,7 +41,7 @@ public enum QuestRules {
         passageId: String,
         answers: [String: String],
         catalog: Catalog,
-        progress: inout Progress,
+        progress: inout ReadingProgress,
         now: Date = Date(),
         identifier: String = UUID().uuidString
     ) -> AttemptOutcome? {
@@ -145,7 +145,7 @@ public enum QuestRules {
         )
     }
 
-    public static func refreshUnlocks(catalog: Catalog, progress: inout Progress) {
+    public static func refreshUnlocks(catalog: Catalog, progress: inout ReadingProgress) {
         if progress.recommendedLevel > progress.highestUnlockedLevel {
             progress.highestUnlockedLevel = progress.recommendedLevel
         }

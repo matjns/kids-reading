@@ -17,7 +17,7 @@ enum StoryPhase: Equatable {
 final class AppModel: ObservableObject {
     @Published var catalog: Catalog?
     @Published var loadError: String?
-    @Published var progress: Progress
+    @Published var progress: ReadingProgress
     @Published var route: AppRoute = .welcome
     @Published var draftName: String
     @Published var mapLevel: Int

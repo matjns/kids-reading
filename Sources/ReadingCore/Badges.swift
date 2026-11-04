@@ -24,7 +24,7 @@ public enum Badges {
     public static let starBrightGoal = 40
     public static let perfectGoal = 3
 
-    public static func all(progress: Progress, catalog: Catalog) -> [BadgeStatus] {
+    public static func all(progress: ReadingProgress, catalog: Catalog) -> [BadgeStatus] {
         let finished = finishedIds(progress: progress, catalog: catalog)
         let finishedPassages = catalog.passages.filter { finished.contains($0.id) }
         let stars = progress.totalStars
@@ -55,13 +55,13 @@ public enum Badges {
         return specs.map { BadgeStatus(id: $0.0, title: $0.1, howToEarn: $0.2, earned: $0.3) }
     }
 
-    public static func finishedIds(progress: Progress, catalog: Catalog) -> Set<String> {
+    public static func finishedIds(progress: ReadingProgress, catalog: Catalog) -> Set<String> {
         Set(catalog.passages.compactMap { passage in
             (progress.passageStats[passage.id]?.attempts ?? 0) > 0 ? passage.id : nil
         })
     }
 
-    public static func correctCount(skill: QuestionSkill, progress: Progress, catalog: Catalog) -> Int {
+    public static func correctCount(skill: QuestionSkill, progress: ReadingProgress, catalog: Catalog) -> Int {
         let keys = Set(progress.correctKeys)
         var count = 0
         for passage in catalog.passages {
@@ -78,7 +78,7 @@ public enum Badges {
         "\(passageId)|\(questionId)"
     }
 
-    private static func trailComplete(_ level: Int, progress: Progress, catalog: Catalog) -> Bool {
+    private static func trailComplete(_ level: Int, progress: ReadingProgress, catalog: Catalog) -> Bool {
         let peers = catalog.passages(at: level)
         guard !peers.isEmpty else { return false }
         return peers.allSatisfy { (progress.passageStats[$0.id]?.attempts ?? 0) > 0 }

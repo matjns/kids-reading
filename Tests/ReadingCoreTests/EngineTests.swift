@@ -34,7 +34,7 @@ final class EngineTests: XCTestCase {
     }
 
     func testNameStaysBlankAndHasNoInventedDefault() {
-        XCTAssertEqual(Progress.empty.playerName, "")
+        XCTAssertEqual(ReadingProgress.empty.playerName, "")
         XCTAssertEqual(NameRules.sanitize("   "), "")
         XCTAssertEqual(NameRules.sanitize("\n\n"), "")
         XCTAssertEqual(NameRules.sanitize("  River   Guide  "), "River Guide")
@@ -49,7 +49,7 @@ final class EngineTests: XCTestCase {
             samplePassage(id: "two", level: 1, order: 2, questionCount: 3),
             samplePassage(id: "peak", level: 3, order: 1, questionCount: 3)
         ])
-        var progress = Progress()
+        var progress = ReadingProgress()
         let first = QuestRules.record(
             passageId: "one",
             answers: correctAnswers(catalog.passage(id: "one")!),
@@ -96,7 +96,7 @@ final class EngineTests: XCTestCase {
             samplePassage(id: "woods", level: 2, order: 1, questionCount: 3),
             samplePassage(id: "woods-2", level: 2, order: 2, questionCount: 3)
         ])
-        var progress = Progress(recommendedLevel: 2, highestUnlockedLevel: 2)
+        var progress = ReadingProgress(recommendedLevel: 2, highestUnlockedLevel: 2)
         _ = QuestRules.record(
             passageId: "meadow",
             answers: [:],
@@ -134,7 +134,7 @@ final class EngineTests: XCTestCase {
 
     func testBestStarsNeverDropAndCorrectKeysDoNotDouble() {
         let catalog = Catalog(passages: [samplePassage(id: "one", level: 1, order: 1, questionCount: 3)])
-        var progress = Progress()
+        var progress = ReadingProgress()
         let passage = catalog.passage(id: "one")!
         _ = QuestRules.record(
             passageId: "one",
@@ -164,7 +164,7 @@ final class EngineTests: XCTestCase {
             samplePassage(id: "w1", level: 2, order: 1, questionCount: 3),
             samplePassage(id: "p1", level: 3, order: 1, questionCount: 3)
         ])
-        var progress = Progress()
+        var progress = ReadingProgress()
         XCTAssertTrue(QuestRules.isPassageUnlocked(catalog.passage(id: "m1")!, catalog: catalog, progress: progress))
         XCTAssertFalse(QuestRules.isPassageUnlocked(catalog.passage(id: "m2")!, catalog: catalog, progress: progress))
         XCTAssertFalse(QuestRules.isTrailUnlocked(2, progress: progress))
@@ -188,7 +188,7 @@ final class EngineTests: XCTestCase {
     func testBadgesAppearOnce() {
         let passages = (1...5).map { samplePassage(id: "p\($0)", level: 1, order: $0, questionCount: 3, kind: .fable) }
         let catalog = Catalog(passages: passages)
-        var progress = Progress()
+        var progress = ReadingProgress()
         var earned: [String] = []
         for passage in passages {
             let outcome = QuestRules.record(
@@ -221,7 +221,7 @@ final class EngineTests: XCTestCase {
             .appendingPathComponent("reading-quest-tests-\(UUID().uuidString)", isDirectory: true)
         try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
         let store = ProgressStore(directory: directory)
-        var progress = Progress(playerName: "Trail Guide", biggerText: true, recommendedLevel: 2, highestUnlockedLevel: 2)
+        var progress = ReadingProgress(playerName: "Trail Guide", biggerText: true, recommendedLevel: 2, highestUnlockedLevel: 2)
         progress.rollingCorrect = [true, false, true]
         progress.passageStats["fox-and-the-grapes"] = PassageStat(attempts: 1, bestStars: 2, lastCorrect: 2, lastTotal: 3)
         try store.save(progress)
@@ -244,7 +244,7 @@ final class EngineTests: XCTestCase {
             samplePassage(id: "m1", level: 1, order: 1, questionCount: 4),
             samplePassage(id: "m2", level: 1, order: 2, questionCount: 4)
         ])
-        var progress = Progress()
+        var progress = ReadingProgress()
         _ = QuestRules.record(
             passageId: "m1",
             answers: correctAnswers(catalog.passage(id: "m1")!),

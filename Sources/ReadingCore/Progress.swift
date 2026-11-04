@@ -85,7 +85,7 @@ public struct AttemptOutcome: Equatable {
     }
 }
 
-public struct Progress: Codable, Equatable {
+public struct ReadingProgress: Codable, Equatable {
     public var playerName: String
     public var biggerText: Bool
     public var recommendedLevel: Int
@@ -115,7 +115,7 @@ public struct Progress: Codable, Equatable {
         self.attempts = attempts
     }
 
-    public static let empty = Progress()
+    public static let empty = ReadingProgress()
 
     public var totalStars: Int {
         passageStats.values.reduce(0) { $0 + $1.bestStars }
@@ -212,12 +212,12 @@ public struct ProgressStore {
         return base.appendingPathComponent("Reading Quest", isDirectory: true)
     }
 
-    public func load() -> Progress {
+    public func load() -> ReadingProgress {
         guard let data = try? Data(contentsOf: fileURL) else {
             return .empty
         }
         do {
-            return try JSONDecoder().decode(Progress.self, from: data)
+            return try JSONDecoder().decode(ReadingProgress.self, from: data)
         } catch {
             let backup = directory.appendingPathComponent("progress.unreadable.json")
             try? FileManager.default.removeItem(at: backup)
@@ -226,7 +226,7 @@ public struct ProgressStore {
         }
     }
 
-    public func save(_ progress: Progress) throws {
+    public func save(_ progress: ReadingProgress) throws {
         try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
